@@ -317,7 +317,7 @@ function Navbar() {
                 </li>
               </ul>
             </li>
-            <li className="menu-item menu-item-has-children">
+            {/* <li className="menu-item menu-item-has-children">
               <a href="#">Pages</a>
               <ul className="sub-menu">
                 <li className="menu-item">
@@ -345,8 +345,8 @@ function Navbar() {
                   <a href="faq.html">FAQ</a>{" "}
                 </li>
               </ul>
-            </li>
-            <li className="menu-item menu-item-has-children">
+            </li> */}
+            {/* <li className="menu-item menu-item-has-children">
               <a href="#">Service</a>
               <ul className="sub-menu">
                 <li className="menu-item">
@@ -358,10 +358,10 @@ function Navbar() {
                   <a href="services-2.html">Service Style 2</a>{" "}
                 </li>
               </ul>
-            </li>
-            <li className="menu-item menu-item-has-children">
+            </li> */}
+            <li className="menu-item ">
               <a href="/donation">Donation</a>
-              <ul className="sub-menu">
+              {/* <ul className="sub-menu">
                 <li className="menu-item">
                   {" "}
                   <a href="/donation">Donation</a>{" "}
@@ -370,7 +370,7 @@ function Navbar() {
                   {" "}
                   <a href="donation-archive.html">Donation Archive</a>{" "}
                 </li>
-              </ul>
+              </ul> */}
             </li>
             <li className="menu-item menu-item-has-children">
               <a href="#">Event</a>
@@ -496,7 +496,7 @@ function Navbar() {
                     </li>
                   </ul> */}
                 </li>
-                <li className="menu-item menu-item-has-children">
+                {/* <li className="menu-item menu-item-has-children">
                   <a href="#">Pages</a>
                   <ul className="sub-menu">
                     <li className="menu-item">
@@ -591,7 +591,7 @@ function Navbar() {
                       <a href="event-details.html">Event Detail</a>{" "}
                     </li>
                   </ul>
-                </li>
+                </li> */}
                 <li className="menu-item ">
                   <a href="/about">About Us</a>
                   {/* <ul className="sub-menu">
@@ -618,9 +618,9 @@ function Navbar() {
                     </li>
                   </ul> */}
                 </li>
-                <li className="menu-item menu-item-has-children">
+                <li className="menu-item ">
                   <a href="/donation">Donation</a>
-                  <ul className="sub-menu">
+                  {/* <ul className="sub-menu">
                     <li className="menu-item">
                       {" "}
                       <a href="/donation">Donation</a>{" "}
@@ -629,13 +629,13 @@ function Navbar() {
                       {" "}
                       <a href="donation-archive.html">Donation Archive</a>{" "}
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
               </ul>
               {/* Logo Start */}
               <div className="sigma_logo-wrapper">
                 <a className="navbar-brand" href="/">
-                <Image src={logo} className="mb-30" alt="Logo" />
+                <Image src={logo} className="mb-30" style={{marginTop:30, height:100}} alt="Logo" />
                   {/* <img src="assets/img/logo.png" alt="logo" /> */}
                 </a>
               </div>
@@ -646,7 +646,7 @@ function Navbar() {
                   <i className="fal fa-phone" />
                   <div className="sigma_header-contact-inner">
                     <span>Get Support</span>
-                    <h6>987-879-428-48</h6>
+                    <h6>+1 214-284-6138</h6>
                   </div>
                 </a>
                 <a className="sigma_btn-custom" href="/donation">

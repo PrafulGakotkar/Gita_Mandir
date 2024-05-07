@@ -249,29 +249,47 @@ function Donation() {
           </div>
 
           <div className="row align-items-center section-padding " style={{ paddingTop: 10 }} >
-            <div className="col-md-12">
+            <div className="col-md-6">
               <div className=" text-center">
                 <h4 className="">1 Acre Land – $330,000</h4>
                 <h4 className="">½ Acre Land – $170,000</h4>
                 <h4>¼ Acre Land – $ 90,000</h4>
                 <h4>5,000 Sq Ft – $ 50,000</h4>
                 <h4>2,500 Sq Ft – $ 25,000</h4>
+
+
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className=" text-center">
+
+
                 <h4>1000 Sq Ft – $ 10,000</h4>
                 <h4>500 Sq Ft - $ 5,000</h4>
                 <h4>250 Sq Ft - $ 2,500</h4>
                 <h4>100 Sq Ft - $ 1,000</h4>
+
+              </div>
+            </div>
+
+            <div className="col-md-12">
+              <div className=" text-center">
+
+
+
                 <h5>All the above sponsors will be recognized as donors for procuring the land</h5>
                 <h4>You can donate any amount as you prefer.</h4>
                 <p><strong>“Just by starting the construction of a temple for Lord, sins
                   committed in seven births will be wiped out and one will
                   deliver his forefathers who are suffering in hellish planets”</strong>
-                   {" "}and who sponsors a temple of Lord Vishnu, gains ten million
+                  {" "}and who sponsors a temple of Lord Vishnu, gains ten million
                   times the merits accrued by Yajna, Austerities, Charities,
                   Pilgrimage and study of Vedas.</p>
-                  <h6>– Skanda Purana
-</h6>
+                <h6>– Skanda Purana
+                </h6>
               </div>
             </div>
+
 
           </div>
 

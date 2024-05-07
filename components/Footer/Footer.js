@@ -1,5 +1,10 @@
 import Link from 'next/link'
 import React from 'react'
+import Image from 'next/image'
+
+import icon from '../../assets/img/icon.png'
+import logo from '../../assets/img/logo.png'
+
 
 
 function Footer() {
@@ -12,50 +17,54 @@ function Footer() {
                         <div className="row" >
                             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 footer-widget">
                                 <h5 className="widget-title">About Us</h5>
-                                <p className="mb-4">You need to be sure there isn&apos;t anything embarrassing hidden in the middle of text. </p>
+                                <p className="mb-4">At Gita Mandir, faith blossoms into a vibrant tapestry of devotion and service. Join our community in celebrating the eternal truths of the Bhagavad Gita, nurturing spiritual growth, and spreading love and compassion to all.</p>
                                 <div className="d-flex align-items-center justify-content-md-start justify-content-center">
                                     <i className="far fa-phone custom-primary me-3"></i>
-                                    <span>987-987-930-302</span>
+                                    <span>+1 214-284-6138</span>
                                 </div>
                                 <div className="d-flex align-items-center justify-content-md-start justify-content-center mt-2">
                                     <i className="far fa-envelope custom-primary me-3"></i>
-                                    <span>info@example.com</span>
+                                    <span>gitamandirfrisco@gmail.com</span>
                                 </div>
                                 <div className="d-flex align-items-center justify-content-md-start justify-content-center mt-2">
                                     <i className="far fa-map-marker custom-primary me-3"></i>
-                                    <span>14/A, Poor Street City Tower, New York USA</span>
+                                    <span>FM 423 & Lone Star Ranch Parkway Intersection</span>
                                 </div>
                             </div>
-                            <div className="col-xl-2 col-lg-2 col-md-4 col-sm-12 footer-widget">
-                                <h5 className="widget-title">Information</h5>
+                            <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 footer-widget">
+                                <h5 className="widget-title">Important Links</h5>
                                 <ul>
                                     <li>
-                                        <i className="fas fa-om"></i>
-                                        <Link href="puja.html">Puja</Link>
+                                        {/* <i className="fas fa-om"></i> */}
+                                        <Image style={{ marginLeft: 0 }} className='icon-img' src={icon} width={20} alt='icon' />
+                                        <Link style={{ marginLeft: 25 }} href="/">Home</Link>
                                     </li>
                                     <li>
-                                        <i className="fas fa-om"></i>
-                                        <Link href="services.html">Services</Link>
+                                        {/* <i className="fas fa-om"></i> */}
+                                        <Image style={{ marginLeft: 0 }} className='icon-img' src={icon} width={20} alt='icon' />
+                                        <Link style={{ marginLeft: 25 }} href="/about">About Us</Link>
                                     </li>
                                     <li>
-                                        <i className="fas fa-om"></i>
-                                        <Link href="about-us.html">Temple</Link>
+                                        {/* <i className="fas fa-om"></i> */}
+                                        <Image style={{ marginLeft: 0, marginRight: 50 }} className='icon-img' src={icon} width={20} alt='icon' />
+                                        <Link style={{ marginLeft: 25 }} href="/contact">Contact Us</Link>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <i className="fas fa-om"></i>
                                         <Link href="holi.html">Holis</Link>
                                     </li>
                                     <li>
                                         <i className="fas fa-om"></i>
                                         <Link href="volunteers.html">Volunteers</Link>
-                                    </li>
+                                    </li> */}
                                     <li>
-                                        <i className="fas fa-om"></i>
-                                        <Link href="events.html">Donation</Link>
+                                        {/* <i className="fas fa-om"></i> */}
+                                        <Image style={{ marginLeft: 0, marginRight: 50 }} className='icon-img' src={icon} width={20} alt='icon' />
+                                        <Link style={{ marginLeft: 25 }} href="/donation">Donation</Link>
                                     </li>
                                 </ul>
                             </div>
-                            <div className="col-xl-2 col-lg-2 col-md-4 col-sm-12 footer-widget">
+                            {/* <div className="col-xl-2 col-lg-2 col-md-4 col-sm-12 footer-widget">
                                 <h5 className="widget-title">Others</h5>
                                 <ul>
                                     <li>
@@ -79,7 +88,7 @@ function Footer() {
                                         <Link href="#">Blog</Link>
                                     </li>
                                 </ul>
-                            </div>
+                            </div> */}
                             <div className="col-xl-4 col-lg-4 col-md-3 col-sm-12 d-none d-lg-block footer-widget widget-recent-posts">
                                 <h5 className="widget-title">Recent Posts</h5>
                                 <article className="sigma_recent-post">
@@ -114,6 +123,7 @@ function Footer() {
                         </div>
                         <div className="sigma_footer-logo">
                             {/* <img src="assets/img/logo.png" alt="logo"> */}
+                            <Image src={logo} height={100} width={140} alt='Logo' />
                         </div>
                         <ul className="sigma_sm square">
                             <li>

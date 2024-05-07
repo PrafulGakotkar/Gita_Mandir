@@ -2855,12 +2855,14 @@ table img {
   background-color: #fff;
   height: 105px;
   /* height: 113px; */
+  width:200px;
   padding: 0 30px;
   margin-bottom: -30px;
   z-index: 3;
   display: flex;
   box-shadow: 0px 10px 50px 0px rgba(53,82,99,0.09);
   align-items: center;
+  border-radius:25px;
 }
 .header-2 .sigma_logo-wrapper .navbar-brand{
   margin-right: 0;
@@ -4601,7 +4603,7 @@ table img {
 .sigma_subheader .breadcrumb-item+.breadcrumb-item::before {
     color: #777;
     font-family: 'Font Awesome 5 Pro';
-    content: "\f679";
+    /* content: "\f679"; */
     margin-left: auto;
     -webkit-transition: .3s;
     -o-transition: .3s;

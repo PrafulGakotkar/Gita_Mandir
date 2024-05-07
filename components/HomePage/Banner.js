@@ -1,13 +1,9 @@
 "use client"
 import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/swiper-bundle.css';
-import SwiperCore, { Navigation } from 'swiper/core'; // Changed import path to 'swiper/core'
 
 import img from '../../assets/img/banner/3.jpg'
 import img1 from '../../assets/img/banner/5.jpg'
 
-SwiperCore.use([Navigation]);
 
 const BannerSlider = () => {
 

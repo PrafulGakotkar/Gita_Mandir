@@ -12,7 +12,7 @@ function Footer() {
                         <div className="row" >
                             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 footer-widget">
                                 <h5 className="widget-title">About Us</h5>
-                                <p className="mb-4">You need to be sure there isn’t anything embarrassing hidden in the middle of text. </p>
+                                <p className="mb-4">You need to be sure there isn&apos;t anything embarrassing hidden in the middle of text. </p>
                                 <div className="d-flex align-items-center justify-content-md-start justify-content-center">
                                     <i className="far fa-phone custom-primary me-3"></i>
                                     <span>987-987-930-302</span>
@@ -100,7 +100,7 @@ function Footer() {
                                     {/* <Link href="blog-details.html"><img src="assets/img/blog/sm/3.jpg" alt="post"></Link> */}
                                     <div className="sigma_recent-post-body">
                                         <Link href="#"> <i className="far fa-calendar"></i> May 20, 2022</Link>
-                                        <h6> <Link href="#">As we've all discovered by now, the world can change</Link></h6>
+                                        <h6> <Link href="#">As we&apos;ve all discovered by now, the world can change</Link></h6>
                                     </div>
                                 </article>
                             </div>

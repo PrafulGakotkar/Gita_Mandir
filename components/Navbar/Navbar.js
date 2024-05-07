@@ -67,7 +67,7 @@ function Navbar() {
                     <div className="sigma_product-single-content">
                       <h4 className="entry-title">
                         {" "}
-                        Koobay 14" Wooden Trousers Bottom Clips Hangers w Rose Gold.{" "}
+                        Koobay 14&quot; Wooden Trousers Bottom Clips Hangers w Rose Gold.{" "}
                       </h4>
                       <div className="sigma_product-price">
                         <span>352$</span>

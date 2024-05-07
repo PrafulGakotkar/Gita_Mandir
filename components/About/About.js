@@ -73,7 +73,7 @@ function About() {
               <div className="sigma_icon-block-content">
                 <h5> Discover Divine Serenity at Gita Mandir </h5>
                 <p>
-                Step into a realm of tranquility and devotion at Gita Mandir. Located in the heart of [Location], our temple welcomes seekers of all backgrounds to explore the profound wisdom of the Bhagavad Gita and find solace in divine grace.
+                Step into a realm of tranquility and devotion at Gita Mandir. Located in the heart of Frisco, our temple welcomes seekers of all backgrounds to explore the profound wisdom of the Bhagavad Gita and find solace in divine grace.
                 </p>
               </div>
             </div>
@@ -192,7 +192,7 @@ function About() {
             </div>
             <p className="blockquote bg-transparent">
               {" "}
-              Gita Mandir's mission is to foster a thriving community deeply rooted in the timeless teachings of the Bhagavad Gita. Through a myriad of spiritual, educational, and cultural programs, we strive to inspire individuals to embark on a journey of self-discovery, inner transformation, and service to humanity. Our aim is to cultivate an environment where seekers of all backgrounds can find guidance, support, and enrichment, ultimately contributing to the collective welfare and spiritual upliftment of society.{" "}
+              Gita Mandir&apos;s mission is to foster a thriving community deeply rooted in the timeless teachings of the Bhagavad Gita. Through a myriad of spiritual, educational, and cultural programs, we strive to inspire individuals to embark on a journey of self-discovery, inner transformation, and service to humanity. Our aim is to cultivate an environment where seekers of all backgrounds can find guidance, support, and enrichment, ultimately contributing to the collective welfare and spiritual upliftment of society.{" "}
             </p>
             {/* <ul className="nav nav-tabs" id="myTab" role="tablist">
               <li className="nav-item">

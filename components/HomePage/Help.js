@@ -23,7 +23,7 @@ function Help() {
               <div className="sigma_service-body">
                 <h5 className="text-white">About Gita</h5>
                 <p className="text-white">
-                Dive into the depths of ancient philosophy as we explore the Bhagavad Gita's rich tapestry of wisdom, guiding seekers towards spiritual enlightenment and inner peace.{" "}
+                Dive into the depths of ancient philosophy as we explore the Bhagavad Gita&apos;s rich tapestry of wisdom, guiding seekers towards spiritual enlightenment and inner peace.{" "}
                 </p>
               </div>
               <span className="btn-link text-white">
@@ -42,7 +42,7 @@ function Help() {
               <div className="sigma_service-body">
                 <h5 className="text-white">Ideology Of Gita</h5>
                 <p className="text-white">
-                Rooted in the essence of duty and righteousness, the Bhagavad Gita's ideology elucidates the path to self-realization and harmonious living, inspiring a life of purpose and integrity.{" "}
+                Rooted in the essence of duty and righteousness, the Bhagavad Gita&apos;s ideology elucidates the path to self-realization and harmonious living, inspiring a life of purpose and integrity.{" "}
                 </p>
               </div>
               <span className="text-white btn-link">

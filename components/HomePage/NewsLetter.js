@@ -1,7 +1,8 @@
 import React from 'react'
+import Image from 'next/image'
 
 import icon from '../../assets/img/icon.png'
-import Image from 'next/image'
+import img from '../../assets/img/cta/2.png'
 
 function NewsLetter() {
   return (
@@ -17,11 +18,12 @@ function NewsLetter() {
       <div className="row align-items-center position-relative">
         <div className="col-md-6">
           <div className="sigma_cta primary-bg">
-            <img
+            {/* <img
               className="d-none d-lg-block"
               src="assets/img/cta/1.png"
               alt="cta"
-            />
+            /> */}
+            <Image src={img} alt='krishna' /> 
             <div className="sigma_cta-content">
               <span className="fw-600  text-white">
                 Need Help, Call Our HOTLINE!
@@ -50,11 +52,12 @@ function NewsLetter() {
                 </div>
               </form>
             </div>
-            <img
+            {/* <img
               className="d-none d-lg-block"
               src="assets/img/cta/2.png"
               alt="cta"
-            />
+            /> */}
+            <Image src={img} alt='krishna' />
           </div>
         </div>
       </div>

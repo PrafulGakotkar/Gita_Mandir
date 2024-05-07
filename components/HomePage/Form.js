@@ -1,5 +1,6 @@
 import React from 'react'
-import img from '../../assets/img/bg1.jpg'
+import img from '../../assets/img/textures/squares.jpg'
+// import img from '../../assets/img/bg1.jpg'
 
 function Form() {
   return (
@@ -87,7 +88,7 @@ function Form() {
           </form>
         </div>
         <div className="col-lg-6">
-          <div className="row">
+          {/* <div className="row">
             <div className="col-lg-6">
               <div className="sigma_client">
                 <img src="assets/img/clients/1.png" alt="client" />
@@ -118,7 +119,7 @@ function Form() {
                 <img src="assets/img/clients/6.png" alt="client" />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

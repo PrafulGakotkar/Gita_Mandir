@@ -11,7 +11,7 @@ function DonateUs() {
   return (
     <>
     {/* Donation Start */}
-    <div className="section section-padding pt-5">
+    <div className="section section-padding pt-0">
       <div className="container">
         <div className="section-title text-center">
             <Image className='icon-img' src={icon} width={20} alt='icon'/> 
@@ -67,7 +67,7 @@ function DonateUs() {
                   <a href="donation.html">Temple In Store Front</a>
                 </h5>
                 <p>
-                &quot;Acquiring land for the Gita Temple in our storefront endeavor, envisioning a sanctum where spirituality meets accessibility, inviting all to embrace the wisdom of the Bhagavad Gita.&quot;{" "}
+                "Acquiring land for the Gita Temple in our storefront endeavor, envisioning a sanctum where spirituality meets accessibility, inviting all to embrace the wisdom of the Bhagavad Gita."{" "}
                 </p>
                 <div className="sigma_service-progress">
                   <div className="progress-content">
@@ -103,7 +103,7 @@ function DonateUs() {
                   <a href="donation.html">Temple Construction</a>
                 </h5>
                 <p>
-                &quot;Embarking on the acquisition of land for the Gita Temple construction, laying the foundation for a sacred abode where devotees can gather to seek solace and spiritual enlightenment.&quot;{" "}
+                "Embarking on the acquisition of land for the Gita Temple construction, laying the foundation for a sacred abode where devotees can gather to seek solace and spiritual enlightenment."{" "}
                 </p>
                 <div className="sigma_service-progress">
                   <div className="progress-content">

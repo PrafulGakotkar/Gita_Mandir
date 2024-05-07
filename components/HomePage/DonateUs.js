@@ -1,11 +1,11 @@
-import React from 'react'
-import Image from 'next/image'
+import React from "react"
+import Image from "next/image"
 
-import img from '../../assets/img/donation/land.jpeg'
-import img1 from '../../assets/img/donation/Store Front.jpg'
-import img2 from '../../assets/img/donation/construction.jpeg'
+import img from "../../assets/img/donation/land.jpeg"
+import img1 from "../../assets/img/donation/Store Front.jpg"
+import img2 from "../../assets/img/donation/construction.jpeg"
 
-import icon from '../../assets/img/icon.png'
+import icon from "../../assets/img/icon.png"
 
 function DonateUs() {
   return (
@@ -23,7 +23,7 @@ function DonateUs() {
             <div className="col-lg-4 col-md-6">
               <div className="sigma_service style-2">
                 <div className="sigma_service-thumb">
-                  <Image src={img} height={'165px'} alt="img" />
+                  <Image src={img} height={"165px"} alt="img" />
                   {/* <img src="assets/img/donation/5.jpg" alt="img" /> */}
                 </div>
                 <div className="sigma_service-body">

@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 
 import img from '../../assets/img/donation/land.jpeg'
-import img1 from '../../assets/img/donation/store front.jpg'
+import img1 from '../../assets/img/donation/Store Front.jpg'
 import img2 from '../../assets/img/donation/construction.jpeg'
 
 import icon from '../../assets/img/icon.png'

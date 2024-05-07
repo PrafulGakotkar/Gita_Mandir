@@ -7,7 +7,7 @@ function NewsLetter() {
   return (
 <>
   {/* CTA Start */}
-  <div className="section pt-0">
+  <div className="section pt-5">
     <div className="container">
       <div className="section-title text-center">
       <Image style={{marginLeft:140}} className='icon-img' src={icon} width={20} alt='icon'/> 

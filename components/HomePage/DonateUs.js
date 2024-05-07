@@ -11,7 +11,7 @@ function DonateUs() {
   return (
     <>
     {/* Donation Start */}
-    <div className="section section-padding pt-0">
+    <div className="section section-padding pt-5">
       <div className="container">
         <div className="section-title text-center">
             <Image className='icon-img' src={icon} width={20} alt='icon'/> 

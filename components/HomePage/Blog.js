@@ -1,7 +1,10 @@
 import React from 'react'
+import Image from 'next/image'  
 
 import icon from '../../assets/img/icon.png'
-import Image from 'next/image'  
+import img from '../../assets/img/blog/1.jpg'
+import img1 from '../../assets/img/blog/2.jpg'
+import img2 from '../../assets/img/blog/3.jpg'
 
 function Blog() {
   return (
@@ -20,7 +23,8 @@ function Blog() {
             <article className="sigma_post">
               <div className="sigma_post-thumb">
                 <a href="blog-details.html">
-                  <img src="assets/img/blog/2.jpg" alt="post" />
+                  {/* <img src="assets/img/blog/2.jpg" alt="post" /> */}
+                  <Image src={img} alt='krishna' />
                 </a>
               </div>
               <div className="sigma_post-body">
@@ -47,7 +51,7 @@ function Blog() {
                   </a>{" "}
                 </h5>
                 <div className="sigma_post-single-author">
-                  <img src="assets/img/people/1.jpg" alt="author" />
+                  {/* <img src="assets/img/people/1.jpg" alt="author" /> */}
                   <div className="sigma_post-single-author-content">
                     By <p>Miha Boukor</p>
                   </div>
@@ -61,7 +65,8 @@ function Blog() {
             <article className="sigma_post">
               <div className="sigma_post-thumb">
                 <a href="blog-details.html">
-                  <img src="assets/img/blog/1.jpg" alt="post" />
+                  {/* <img src="assets/img/blog/1.jpg" alt="post" /> */}
+                  <Image src={img1} alt='krishna' />
                 </a>
               </div>
               <div className="sigma_post-body">
@@ -88,7 +93,7 @@ function Blog() {
                   </a>{" "}
                 </h5>
                 <div className="sigma_post-single-author">
-                  <img src="assets/img/people/2.jpg" alt="author" />
+                  {/* <img src="assets/img/people/2.jpg" alt="author" /> */}
                   <div className="sigma_post-single-author-content">
                     By <p>Aime Bill</p>
                   </div>
@@ -102,7 +107,8 @@ function Blog() {
             <article className="sigma_post">
               <div className="sigma_post-thumb">
                 <a href="blog-details.html">
-                  <img src="assets/img/blog/3.jpg" alt="post" />
+                  {/* <img src="assets/img/blog/3.jpg" alt="post" /> */}
+                  <Image src={img2} alt='krishna' />
                 </a>
               </div>
               <div className="sigma_post-body">
@@ -129,7 +135,7 @@ function Blog() {
                   </a>{" "}
                 </h5>
                 <div className="sigma_post-single-author">
-                  <img src="assets/img/people/1.jpg" alt="author" />
+                  {/* <img src="assets/img/people/1.jpg" alt="author" /> */}
                   <div className="sigma_post-single-author-content">
                     By <p>Yesh Chopra</p>
                   </div>

@@ -236,7 +236,7 @@ function Donation() {
             <div className="col-md-5">
               <div className="section-title text-start">
                 <h4 className="">How can you be involved?</h4>
-                <p className="subtitle">Donations:</p>
+                <p className="subtitle" style={{padding:0, margin:0}}>Donations:</p>
                 <p>You can donate by acre or by Sq ft. Some recommended
                   donation suggestions are</p>
                 <h6>Grand Sponsor – $500,000</h6>

@@ -1,5 +1,10 @@
 import React from 'react'
+import Blog from '../HomePage/Blog'
+
 import subheader from '../../assets/img/subheader.jpg'
+import img from '../../assets/img/service/details/2.jpg'
+import img1 from '../../assets/img/service/details/3.jpg'
+import Image from 'next/image'
 
 function About() {
   return (
@@ -36,7 +41,8 @@ function About() {
       <div className="row align-items-center">
         <div className="col-lg-6 d-none d-lg-block">
           <div className="sigma_img-box">
-            <div className="row">
+            <Image src={img} alt='krishna' />
+            {/* <div className="row">
               <div className="col-lg-6">
                 <img src="assets/img/service/details/5.jpg" alt="service" />
                 <img
@@ -53,7 +59,7 @@ function About() {
                   alt="service"
                 />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="col-lg-6">
@@ -285,148 +291,15 @@ function About() {
           </div>
         </div>
         <div className="col-lg-6">
-          <img src="assets/img/about.jpg" alt="about" />
+          {/* <img src="assets/img/about.jpg" alt="about" /> */}
+          <Image src={img1} alt='krishna' />
         </div>
       </div>
     </div>
   </section>
   {/* About End */}
   
-  {/* Blog Start */}
-  <div className="section section-padding">
-    <div className="container">
-      <div className="section-title text-center">
-        <p className="subtitle">Blog</p>
-        <h4 className="title">News Feed</h4>
-      </div>
-      <div className="row">
-        {/* Article Start */}
-        <div className="col-lg-4 col-md-6">
-          <article className="sigma_post">
-            <div className="sigma_post-thumb">
-              <a href="blog-details.html">
-                <img src="assets/img/blog/2.jpg" alt="post" />
-              </a>
-            </div>
-            <div className="sigma_post-body">
-              <div className="sigma_post-meta">
-                <div className="me-3">
-                  <i className="fas fa-om" />
-                  <a href="blog-details.html" className="sigma_post-category">
-                    Temple
-                  </a>
-                  ,
-                  <a href="blog-details.html" className="sigma_post-category">
-                    Love
-                  </a>
-                </div>
-                <a href="blog-details.html" className="sigma_post-date">
-                  {" "}
-                  <i className="far fa-calendar" /> May 20, 2022
-                </a>
-              </div>
-              <h5>
-                {" "}
-                <a href="blog-details.html">
-                  Education for all rural children are necessary.
-                </a>{" "}
-              </h5>
-              <div className="sigma_post-single-author">
-                <img src="assets/img/people/1.jpg" alt="author" />
-                <div className="sigma_post-single-author-content">
-                  By <p>Yesh Chopra</p>
-                </div>
-              </div>
-            </div>
-          </article>
-        </div>
-        {/* Article End */}
-        {/* Article Start */}
-        <div className="col-lg-4 col-md-6">
-          <article className="sigma_post">
-            <div className="sigma_post-thumb">
-              <a href="blog-details.html">
-                <img src="assets/img/blog/1.jpg" alt="post" />
-              </a>
-            </div>
-            <div className="sigma_post-body">
-              <div className="sigma_post-meta">
-                <div className="me-3">
-                  <i className="fas fa-om" />
-                  <a href="blog-details.html" className="sigma_post-category">
-                    Temple
-                  </a>
-                  ,
-                  <a href="blog-details.html" className="sigma_post-category">
-                    Love
-                  </a>
-                </div>
-                <a href="blog-details.html" className="sigma_post-date">
-                  {" "}
-                  <i className="far fa-calendar" /> May 20, 2022
-                </a>
-              </div>
-              <h5>
-                {" "}
-                <a href="blog-details.html">
-                  Education for all rural children are necessary.
-                </a>{" "}
-              </h5>
-              <div className="sigma_post-single-author">
-                <img src="assets/img/people/2.jpg" alt="author" />
-                <div className="sigma_post-single-author-content">
-                  By <p>Yesh Chopra</p>
-                </div>
-              </div>
-            </div>
-          </article>
-        </div>
-        {/* Article End */}
-        {/* Article Start */}
-        <div className="col-lg-4 col-md-6">
-          <article className="sigma_post">
-            <div className="sigma_post-thumb">
-              <a href="blog-details.html">
-                <img src="assets/img/blog/3.jpg" alt="post" />
-              </a>
-            </div>
-            <div className="sigma_post-body">
-              <div className="sigma_post-meta">
-                <div className="me-3">
-                  <i className="fas fa-om" />
-                  <a href="blog-details.html" className="sigma_post-category">
-                    Temple
-                  </a>
-                  ,
-                  <a href="blog-details.html" className="sigma_post-category">
-                    Love
-                  </a>
-                </div>
-                <a href="blog-details.html" className="sigma_post-date">
-                  {" "}
-                  <i className="far fa-calendar" /> May 20, 2022
-                </a>
-              </div>
-              <h5>
-                {" "}
-                <a href="blog-details.html">
-                  Education for all rural children are necessary.
-                </a>{" "}
-              </h5>
-              <div className="sigma_post-single-author">
-                <img src="assets/img/people/1.jpg" alt="author" />
-                <div className="sigma_post-single-author-content">
-                  By <p>Yesh Chopra</p>
-                </div>
-              </div>
-            </div>
-          </article>
-        </div>
-        {/* Article End */}
-      </div>
-    </div>
-  </div>
-  {/* Blog End */}
+ <Blog />
 </>
 
   )

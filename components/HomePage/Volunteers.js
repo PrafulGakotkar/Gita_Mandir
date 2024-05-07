@@ -1,7 +1,8 @@
 import React from 'react'
+import Image from 'next/image'
 
 import icon from '../../assets/img/icon.png'
-import Image from 'next/image'
+import img from '../../assets/img/volunteers/1.jpg'
 
 function Volunteers() {
   return (
@@ -13,7 +14,7 @@ function Volunteers() {
         <div className="col-lg-6 mb-lg-30">
           <div className="section-title mb-0 text-start">
           <Image style={{marginLeft:5}} className='icon-img' src={icon} width={20} alt='icon'/> 
-            <p className="subtitle">volunteers</p>
+            <p className="subtitle" style={{marginLeft:30}}>volunteers</p>
             <h4 className="title">Our Volunteers Achievments</h4>
           </div>
           <p className="blockquote bg-transparent">
@@ -51,12 +52,24 @@ function Volunteers() {
         </div>
         <div className="col-lg-6">
           <div className="me-lg-30">
-            <div className="row">
+
+          <div className="sigma_volunteers volunteers-5">
+                  <div className="sigma_volunteers-thumb">
+                    {/* <img src="assets/img/volunteers/1.jpg" alt="volunteers" /> */}
+                    <Image src={img} alt='volunteers' />
+
+                     
+                  </div>
+                  
+                </div>
+
+
+            {/* <div className="row">
               <div className="col-lg-6 col-md-6">
                 <div className="sigma_volunteers volunteers-5">
                   <div className="sigma_volunteers-thumb">
                     <img src="assets/img/volunteers/1.jpg" alt="volunteers" />
-                    <ul className="sigma_sm">
+                     <ul className="sigma_sm">
                       <li>
                         {" "}
                         <a href="#" className="trigger-volunteers-socials">
@@ -85,7 +98,7 @@ function Volunteers() {
                           <i className="fab fa-instagram" />{" "}
                         </a>{" "}
                       </li>
-                    </ul>
+                    </ul> 
                   </div>
                   <div className="sigma_volunteers-body">
                     <div className="sigma_volunteers-info">
@@ -142,7 +155,7 @@ function Volunteers() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -1,5 +1,10 @@
 import React from 'react'
 
+import Image from 'next/image'
+
+import img from '../../assets/img/progress-bar/2.jpg'
+import img1 from '../../assets/img/progress-bar/1.jpg'
+
 function Progress() {
   return (
     <>
@@ -8,7 +13,8 @@ function Progress() {
     <div className="container">
       <div className="row align-items-center">
         <div className="col-lg-4">
-          <img src="assets/img/progress-bar/1.jpg" alt="img" />
+        <Image src={img1} alt='Krishna' />
+          {/* <img src="assets/img/progress-bar/1.jpg" alt="img" /> */}
         </div>
         <div className="col-lg-4 p-3 p-lg-0">
           <div className="sigma_box sigma_box-absolute sigma_box-lg m-0 sigma_box-progress">
@@ -43,7 +49,8 @@ function Progress() {
           </div>
         </div>
         <div className="col-lg-4 z-index-3">
-          <img src="assets/img/progress-bar/2.jpg" alt="img" />
+          <Image src={img} alt='Krishna' />
+          {/* <img src="assets/img/progress-bar/2.jpg" alt="img" /> */}
         </div>
       </div>
     </div>

@@ -1646,7 +1646,7 @@ blockquote::before{
 .section-title .subtitle::after,
 .section-title .subtitle::before{
   /* content: "\f679"; */
-  content: "\f8b9";
+  /* content: "\f8b9"; */
   font-family: "Font Awesome 5 Pro";
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;

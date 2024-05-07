@@ -67,7 +67,7 @@ function DonateUs() {
                   <a href="donation.html">Temple In Store Front</a>
                 </h5>
                 <p>
-                "Acquiring land for the Gita Temple in our storefront endeavor, envisioning a sanctum where spirituality meets accessibility, inviting all to embrace the wisdom of the Bhagavad Gita."{" "}
+                &quot;Acquiring land for the Gita Temple in our storefront endeavor, envisioning a sanctum where spirituality meets accessibility, inviting all to embrace the wisdom of the Bhagavad Gita.&quot;{" "}
                 </p>
                 <div className="sigma_service-progress">
                   <div className="progress-content">
@@ -103,7 +103,7 @@ function DonateUs() {
                   <a href="donation.html">Temple Construction</a>
                 </h5>
                 <p>
-                "Embarking on the acquisition of land for the Gita Temple construction, laying the foundation for a sacred abode where devotees can gather to seek solace and spiritual enlightenment."{" "}
+                &quot;Embarking on the acquisition of land for the Gita Temple construction, laying the foundation for a sacred abode where devotees can gather to seek solace and spiritual enlightenment.&quot;{" "}
                 </p>
                 <div className="sigma_service-progress">
                   <div className="progress-content">

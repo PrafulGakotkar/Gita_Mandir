@@ -687,12 +687,12 @@ function Navbar() {
               </a>
             </div>
             {/* Controls */}
-            <div className="sigma_header-controls style-1">
+            {/* <div className="sigma_header-controls style-1">
               <a href="#" className="sigma_search-trigger">
                 {" "}
                 <i className="flaticon-magnifying-glass" />{" "}
               </a>
-            </div>
+            </div> */}
           </nav>
         </div>
         {/* Middle Header End */}

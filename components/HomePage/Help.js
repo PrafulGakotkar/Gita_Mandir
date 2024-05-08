@@ -18,7 +18,10 @@ function Help() {
           <div className="col-lg-4 col-md-6">
             <a href="services.html" className="sigma_service style-1 primary-bg">
               <div className="sigma_service-thumb">
-                <i className="text-white flaticon-temple" />
+                {/* <i className="text-white flaticon-temple" /> */}
+                <i className="text-white flaticon-hindu-1" />
+                {/* <i className="custom-primary flaticon-hindu-1" /> */}
+
               </div>
               <div className="sigma_service-body">
                 <h5 className="text-white">About Gita</h5>
@@ -37,7 +40,8 @@ function Help() {
               className="sigma_service style-1 secondary-bg"
             >
               <div className="sigma_service-thumb">
-                <i className="custom-primary flaticon-hindu-1" />
+                <i className="flaticon-pooja" />
+
               </div>
               <div className="sigma_service-body">
                 <h5 className="text-white">Ideology Of Gita</h5>
@@ -53,7 +57,7 @@ function Help() {
           <div className="col-lg-4 col-md-6 mt-negative-sm">
             <a href="services.html" className="sigma_service style-1 bg-white">
               <div className="sigma_service-thumb">
-                <i className="flaticon-pooja" />
+                <i className="flaticon-temple" />
               </div>
               <div className="sigma_service-body">
                 <h5>About Temple</h5>

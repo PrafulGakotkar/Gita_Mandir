@@ -796,6 +796,19 @@
   .entry-content .sigma_event-timer .sigma_countdown-timer li span{
     font-size: 14px;
   }
+  .icon-img,.icon-img2{
+    position:absolute;
+    margin-left:90px;
+  }
+  .icon-img3{
+    position:absolute;
+    margin-left:140px;
+  }
+
+  .footrt-icon-img{
+    position:absolute;
+    margin-left:140px;
+  }
 
 }
 

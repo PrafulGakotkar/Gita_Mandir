@@ -6,7 +6,7 @@ function MobileMenu() {
   return (
     <>
      {/* <!-- partial:partia/__mobile-nav.html --> */}
-  <aside className="sigma_aside sigma_aside-left">
+  <aside className="sigma_aside sigma_aside-left ">
 
     <Link className="navbar-brand" href="index.html"> 
     {/* <Image src="assets/img/logo.png" alt="logo"> */}
@@ -99,6 +99,7 @@ function MobileMenu() {
     </ul>
 
   </aside>
+  <div className="sigma_aside-overlay aside-trigger-left open" />
  
   </>
   )

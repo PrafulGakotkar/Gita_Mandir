@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 
 import icon from '../../assets/img/icon.png'
-import img from '../../assets/img/volunteers/1.jpg'
+import img from '../../assets/img/volunteers/1.png'
 
 function Volunteers() {
   return (
@@ -13,7 +13,7 @@ function Volunteers() {
       <div className="row align-items-center">
         <div className="col-lg-6 mb-lg-30">
           <div className="section-title mb-0 text-start">
-          <Image style={{marginLeft:5}} className='icon-img' src={icon} width={20} alt='icon'/> 
+          <Image  className='icon-img1' src={icon} width={20} alt='icon'/> 
             <p className="subtitle" style={{marginLeft:30}}>volunteers</p>
             <h4 className="title">Our Volunteers Achievments</h4>
           </div>

@@ -2,9 +2,9 @@ import React from 'react'
 import Image from 'next/image'  
 
 import icon from '../../assets/img/icon.png'
-import img from '../../assets/img/blog/1.jpg'
-import img1 from '../../assets/img/blog/2.jpg'
-import img2 from '../../assets/img/blog/3.jpg'
+import img from '../../assets/img/blog/1.png'
+import img1 from '../../assets/img/blog/2.png'
+import img2 from '../../assets/img/blog/3.png'
 
 function Blog() {
   return (
@@ -13,7 +13,7 @@ function Blog() {
     <div className="section section-padding">
       <div className="container">
         <div className="section-title text-center">
-        <Image style={{marginLeft:190}} className='icon-img' src={icon} width={20} alt='icon'/> 
+        <Image className='icon-img3' src={icon} width={20} alt='icon'/> 
           <p className="subtitle">Blog</p>
           <h4 className="title">News Feed</h4>
         </div>

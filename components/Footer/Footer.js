@@ -36,17 +36,17 @@ function Footer() {
                                 <ul>
                                     <li>
                                         {/* <i className="fas fa-om"></i> */}
-                                        <Image style={{ marginLeft: 0 }} className='icon-img' src={icon} width={20} alt='icon' />
+                                        <Image  className='footrt-icon-img' src={icon} width={20} alt='icon' />
                                         <Link style={{ marginLeft: 25 }} href="/">Home</Link>
                                     </li>
                                     <li>
                                         {/* <i className="fas fa-om"></i> */}
-                                        <Image style={{ marginLeft: 0 }} className='icon-img' src={icon} width={20} alt='icon' />
+                                        <Image className='footrt-icon-img' src={icon} width={20} alt='icon' />
                                         <Link style={{ marginLeft: 25 }} href="/about">About Us</Link>
                                     </li>
                                     <li>
                                         {/* <i className="fas fa-om"></i> */}
-                                        <Image style={{ marginLeft: 0, marginRight: 50 }} className='icon-img' src={icon} width={20} alt='icon' />
+                                        <Image   className='footrt-icon-img' src={icon} width={20} alt='icon' />
                                         <Link style={{ marginLeft: 25 }} href="/contact">Contact Us</Link>
                                     </li>
                                     {/* <li>
@@ -55,12 +55,12 @@ function Footer() {
                                     </li>*/}
                                     {/* <li>
                                         <i className="fas fa-om"></i>
-                                        <Image style={{ marginLeft: 0, marginRight: 50 }} className='icon-img' src={icon} width={20} alt='icon' />
+                                        <Image   className='footrt-icon-img' src={icon} width={20} alt='icon' />
                                         <Link style={{ marginLeft: 25 }} href="volunteers.html">Volunteers</Link>
                                     </li>  */}
                                     <li>
                                         {/* <i className="fas fa-om"></i> */}
-                                        <Image style={{ marginLeft: 0, marginRight: 50 }} className='icon-img' src={icon} width={20} alt='icon' />
+                                        <Image   className='footrt-icon-img' src={icon} width={20} alt='icon' />
                                         <Link style={{ marginLeft: 25 }} href="/donation">Donation</Link>
                                     </li>
                                 </ul>
@@ -70,24 +70,24 @@ function Footer() {
                                 <ul>
                                     <li>
                                         {/* <i className="fas fa-om"></i> */}
-                                        <Image style={{ marginLeft: 0, marginRight: 50 }} className='icon-img' src={icon} width={20} alt='icon' />
+                                        <Image   className='footrt-icon-img' src={icon} width={20} alt='icon' />
                                         <Link style={{ marginLeft: 25 }} href="/coming_soon">Shop</Link>
                                     </li>
                                    
                                     
                                     <li>
                                         {/* <i className="fas fa-om"></i> */}
-                                        <Image style={{ marginLeft: 0, marginRight: 50 }} className='icon-img' src={icon} width={20} alt='icon' />
+                                        <Image   className='footrt-icon-img' src={icon} width={20} alt='icon' />
                                         <Link style={{ marginLeft: 25 }} href="/coming_soon">Blog</Link>
                                     </li>
                                     <li>
                                         {/* <i className="fas fa-om"></i> */}
-                                        <Image style={{ marginLeft: 0, marginRight: 50 }} className='icon-img' src={icon} width={20} alt='icon' />
+                                        <Image   className='footrt-icon-img' src={icon} width={20} alt='icon' />
                                         <Link style={{ marginLeft: 25 }} href="/coming_soon">Events</Link>
                                     </li>
                                     <li>
                                         {/* <i className="fas fa-om"></i> */}
-                                        <Image style={{ marginLeft: 0, marginRight: 50 }} className='icon-img' src={icon} width={20} alt='icon' />
+                                        <Image   className='footrt-icon-img' src={icon} width={20} alt='icon' />
                                         <Link style={{ marginLeft: 25 }} href="/coming_soon">Volunteer</Link>
                                     </li>
                                 </ul>

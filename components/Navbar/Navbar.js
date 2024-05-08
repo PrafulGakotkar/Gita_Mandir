@@ -19,10 +19,20 @@ function Navbar() {
   //   window.scrollTo(10, 0);
   // }
   const [menuActive, setMenuActive] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-  const toggleMenu = () => {
-    console.log("Toggle menu clicked");
+  const ClickHandler = () => {
+    // console.log("Toggle menu clicked");
     setMenuActive(!menuActive);
+  };
+
+
+  const toggleStyle = {
+    display: isOpen ? 'block' : 'none'
+  };
+
+  const toggleClassName = () => {
+    setIsOpen(!isOpen);
   };
 
 
@@ -288,40 +298,47 @@ function Navbar() {
       <div className="sigma_aside-overlay aside-trigger-right" />
       {/* partial */}
       {/* partial:partia/__mobile-nav.html */}
-      <aside className="sigma_aside sigma_aside-left">
-        <a className="navbar-brand" href="index.html">
-          {" "}
-          <Image src={logo} className="mb-30" alt="img" />
-          {/* <img src="assets/img/logo.png" alt="logo" />{" "} */}
-        </a>
+      <aside className={` sigma_aside sigma_aside-left ${menuActive ? 'open' : ''}`} >
+        <div style={{display:"flex"}}>
+          <a className="navbar-brand" href="/">
+            {" "}
+            <Image src={logo} className="mb-30" alt="img" />
+            {/* <img src="assets/img/logo.png" alt="logo" />{" "} */}
+          </a>
+          <button onClick={ClickHandler} className="close-btn close-dark close" data-bs-dismiss="modal">
+            <span />
+            <span />
+          </button>
+        </div>
         {/* Menu */}
         <ul>
-          <li className="menu-item ">
+          <li className="menu-item  ">
             <a href="/">Home</a>
-            {/* <ul className="sub-menu">
-                <li className="menu-item">
-                  {" "}
-                  <a href="index.html">Home v1</a>{" "}
-                </li>
-                <li className="menu-item">
-                  {" "}
-                  <a href="home-v2.html">Home v2</a>{" "}
-                </li>
-                <li className="menu-item">
-                  {" "}
-                  <a href="home-v3.html">Home v3</a>{" "}
-                </li>
-              </ul> */}
-          </li>
-          <li className="menu-item menu-item-has-children">
-            <a href="#">Blog</a>
             <ul className="sub-menu">
               <li className="menu-item">
-                <a href="blog-grid.html">Blog Archive</a>
+                {" "}
+                <a href="index.html">Home v1</a>{" "}
               </li>
               <li className="menu-item">
                 {" "}
-                <a href="blog-details.html">Blog Details</a>{" "}
+                <a href="home-v2.html">Home v2</a>{" "}
+              </li>
+              <li className="menu-item">
+                {" "}
+                <a href="home-v3.html">Home v3</a>{" "}
+              </li>
+            </ul>
+          </li>
+          {/* <li className="menu-item menu-item-has-children" onClick={toggleClassName}> */}
+          <li className="menu-item" onClick={toggleClassName}>
+            <a href="/coming_soon">Blog</a>
+            <ul className="sub-menu" style={toggleStyle}>
+              <li className="menu-item">
+                <a href="/coming_soon">Blog Archive</a>
+              </li>
+              <li className="menu-item">
+                {" "}
+                <a href="/coming_soon">Blog Details</a>{" "}
               </li>
             </ul>
           </li>
@@ -354,8 +371,8 @@ function Navbar() {
                 </li>
               </ul>
             </li> */}
-          {/* <li className="menu-item menu-item-has-children">
-              <a href="#">Service</a>
+          <li className="menu-item ">
+              <a href="/coming_soon">Service</a>
               <ul className="sub-menu">
                 <li className="menu-item">
                   {" "}
@@ -366,7 +383,7 @@ function Navbar() {
                   <a href="services-2.html">Service Style 2</a>{" "}
                 </li>
               </ul>
-            </li> */}
+            </li>
           <li className="menu-item ">
             <a href="/donation">Donation</a>
             {/* <ul className="sub-menu">
@@ -380,20 +397,20 @@ function Navbar() {
                 </li>
               </ul> */}
           </li>
-          <li className="menu-item menu-item-has-children">
+          <li className="menu-item ">
             <a href="#">Event</a>
             <ul className="sub-menu">
               <li className="menu-item">
                 {" "}
-                <a href="events.html">Event</a>{" "}
+                <a href="/coming_soon">Event</a>{" "}
               </li>
               <li className="menu-item">
                 {" "}
-                <a href="event-details.html">Event Detail</a>{" "}
+                <a href="/coming_soon">Event Detail</a>{" "}
               </li>
             </ul>
           </li>
-          <li className="menu-item menu-item-has-children">
+          {/* <li className="menu-item menu-item-has-children">
             <a href="#">Holis</a>
             <ul className="sub-menu">
               <li className="menu-item">
@@ -418,19 +435,19 @@ function Navbar() {
                 <a href="puja-details.html">Puja Details</a>{" "}
               </li>
             </ul>
-          </li>
-          <li className="menu-item menu-item-has-children">
-            <a href="#">Shop</a>
+          </li> */}
+          <li className="menu-item ">
+            <a href="/coming_soon">Shop</a>
             <ul className="sub-menu">
               <li className="menu-item">
                 {" "}
-                <a href="shop.html">Shop</a>{" "}
+                <a href="/coming_soon">Shop</a>{" "}
               </li>
               <li className="menu-item">
                 {" "}
-                <a href="product-single.html">Product Details</a>{" "}
+                <a href="/coming_soon">Product Details</a>{" "}
               </li>
-              <li className="menu-item">
+              {/* <li className="menu-item">
                 {" "}
                 <a href="cart.html">Cart</a>{" "}
               </li>
@@ -441,7 +458,7 @@ function Navbar() {
               <li className="menu-item">
                 {" "}
                 <a href="wishlist.html">Wishlist</a>{" "}
-              </li>
+              </li> */}
             </ul>
           </li>
           <li className="menu-item">
@@ -449,7 +466,7 @@ function Navbar() {
           </li>
         </ul>
       </aside>
-      <div className="sigma_aside-overlay aside-trigger-left" />
+      <div className="sigma_aside-overlay aside-trigger-left open" active={menuActive} />
       {/* partial */}
       {/* partial:partia/__header.html */}
       <header className="sigma_header header-2 can-sticky">
@@ -474,8 +491,8 @@ function Navbar() {
                 {/* Mobile Toggler */}
                 {/* Mobile menu toggle button */}
                 <button
-                  onClick={toggleMenu}
-                  className={`aside-toggler style-2 aside-trigger-left ${menuActive ? 'active' : ''}`}
+                  onClick={ClickHandler}
+                  className={`aside-toggler style-2 aside-trigger-left ${menuActive ? 'open' : ''}`}
                 >
                   <span />
                   <span />

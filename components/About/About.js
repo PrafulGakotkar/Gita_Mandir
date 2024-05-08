@@ -2,9 +2,10 @@ import React from 'react'
 import Blog from '../HomePage/Blog'
 
 import subheader from '../../assets/img/subheader.jpg'
-import img from '../../assets/img/service/details/2.jpg'
-import img1 from '../../assets/img/service/details/3.jpg'
+import img from '../../assets/img/service/details/2.png'
+import img1 from '../../assets/img/service/details/3.png'
 import Image from 'next/image'
+import icon from '../../assets/img/icon.png'
 
 function About() {
   return (
@@ -65,6 +66,7 @@ function About() {
         <div className="col-lg-6">
           <div className="me-lg-30">
             <div className="section-title mb-0 text-start">
+            {/* <Image  className='icon-img4' src={icon} width={20} alt='icon'/>  */}
               <p className="subtitle">About Gita Mandir</p>
               <h4 className="title">Embracing Eternal Wisdom</h4>
             </div>
@@ -191,6 +193,7 @@ function About() {
         <div className="col-lg-6">
           <div className="me-lg-30">
             <div className="section-title mb-0 text-start">
+            {/* <Image  className='icon-img4' src={icon} width={20} alt='icon'/>  */}
               <p className="subtitle">Our Approach</p>
               <h4 className="title">
               Our Mission: Nurturing Hearts, Inspiring Minds

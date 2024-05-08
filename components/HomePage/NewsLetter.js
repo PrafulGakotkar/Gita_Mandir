@@ -11,7 +11,7 @@ function NewsLetter() {
   <div className="section pt-5">
     <div className="container">
       <div className="section-title text-center">
-      <Image style={{marginLeft:140}} className='icon-img' src={icon} width={20} alt='icon'/> 
+      <Image  className='icon-img2' src={icon} width={20} alt='icon'/> 
         <p className="subtitle">WAYS WE CAN HELP</p>
         <h4 className="title">Angels Ready To Help</h4>
       </div>
@@ -23,7 +23,7 @@ function NewsLetter() {
               src="assets/img/cta/1.png"
               alt="cta"
             /> */}
-            <Image src={img} alt='krishna' /> 
+            {/* <Image src={img} alt='krishna' />  */}
             <div className="sigma_cta-content">
               <span className="fw-600  text-white">
                 Need Help, Call Our HOTLINE!

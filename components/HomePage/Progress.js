@@ -2,8 +2,8 @@ import React from 'react'
 
 import Image from 'next/image'
 
-import img from '../../assets/img/progress-bar/2.jpg'
-import img1 from '../../assets/img/progress-bar/1.jpg'
+import img from '../../assets/img/progress-bar/2.png'
+import img1 from '../../assets/img/progress-bar/1.png'
 
 function Progress() {
   return (
@@ -42,7 +42,7 @@ function Progress() {
               </svg>
             </div>
             <h6>Temple Project Success Status
-              
+
             </h6>
             <p className="m-0 blockquote bg-transparent">
               {" "}

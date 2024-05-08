@@ -329,9 +329,9 @@ function Navbar() {
               </li>
             </ul>
           </li>
-          {/* <li className="menu-item menu-item-has-children" onClick={toggleClassName}> */}
-          <li className="menu-item" onClick={toggleClassName}>
-            <a href="/coming_soon">Blog</a>
+          <li className="menu-item menu-item-has-children" onClick={toggleClassName}>
+          {/* <li className="menu-item" onClick={toggleClassName}> */}
+            <a href="#">Blog</a>
             <ul className="sub-menu" style={toggleStyle}>
               <li className="menu-item">
                 <a href="/coming_soon">Blog Archive</a>

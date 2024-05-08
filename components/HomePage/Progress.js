@@ -41,7 +41,9 @@ function Progress() {
             
               </svg>
             </div>
-            <h6>Temple Project Success Rate</h6>
+            <h6>Temple Project Success Status
+              
+            </h6>
             <p className="m-0 blockquote bg-transparent">
               {" "}
               Design better websites and spend less time without restricting{" "}

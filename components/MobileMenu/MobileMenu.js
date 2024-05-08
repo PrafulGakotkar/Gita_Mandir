@@ -99,7 +99,7 @@ function MobileMenu() {
     </ul>
 
   </aside>
-  <div className="sigma_aside-overlay aside-trigger-left"></div>
+ 
   </>
   )
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import subheader from '../../assets/img/subheader.jpg'
+import subheader from '../../assets/img/subheader1.jpeg'
 
 function Donation() {
   return (

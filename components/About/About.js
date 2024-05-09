@@ -1,7 +1,7 @@
 import React from 'react'
 import Blog from '../HomePage/Blog'
 
-import subheader from '../../assets/img/subheader.jpg'
+import subheader from '../../assets/img/subheader1.jpeg'
 import img from '../../assets/img/service/details/2.png'
 import img1 from '../../assets/img/service/details/3.png'
 import Image from 'next/image'

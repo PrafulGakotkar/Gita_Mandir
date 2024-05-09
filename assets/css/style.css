@@ -907,8 +907,8 @@ video {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-image: url(../img/textures/squares.jpg);
-  /* background-image: url(../img/textures/squares.png); */
+  /* background-image: url(../img/textures/squares.jpg); */
+  background-image: url(../img/textures/squares.png);
   background-size: cover;
   background-position: center;
 }
@@ -1781,7 +1781,8 @@ textarea.form-control {
     border-radius: 10px;
     border: 2px solid #efefef;
     width: 100%;
-    color: #6e6e6e;
+    color: #fff;
+    /* color: #6e6e6e; */
     background-color: #fff;
     letter-spacing: 0.1px;
     font-size: 14px;
@@ -1790,7 +1791,8 @@ textarea.form-control {
 }
 
 .form-control.transparent{
-  background-color: rgba(255,255,255,.1);
+  background-color: rgba(255,255,255,.3);
+  /* background-color: rgba(255,255,255,.1); */
   border: 0;
 }
 .form-control.transparent:focus{
@@ -1811,6 +1813,15 @@ textarea.form-control {
     -webkit-box-shadow: none;
     box-shadow: none;
     border-color: #efefef;
+}
+
+.form-control:focus {
+  color: #fff;
+  /* color: #212529; */
+  background-color: #fff;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
 }
 
 .form-group {
@@ -10102,4 +10113,8 @@ small {
 }
 .flaticon-geeta:before {
   content: "\f02d"; /* Unicode for book icon */
+}
+
+.place{
+  text-align: end;
 }

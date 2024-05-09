@@ -39,8 +39,8 @@ function Help() {
               href="services.html"
               className="sigma_service style-1 secondary-bg"
             >
-              <div className="sigma_service-thumb">
-                <i className="flaticon-pooja" />
+              <div className="sigma_service-thumb text-white">
+                <i className="text-white flaticon-pooja" />
 
               </div>
               <div className="sigma_service-body">

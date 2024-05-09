@@ -197,7 +197,7 @@ function Donation() {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-5">
-              <div className="section-title text-end">
+              <div className="section-title place">
                 <p className="subtitle">WAYS WE CAN HELP</p>
                 <h4 className="title">Angels Ready To Help</h4>
               </div>
@@ -207,15 +207,15 @@ function Donation() {
               <span className="vertical-seperator" />{" "}
             </div>
             <div className="col-md-5 d-none d-md-block">
-              <p className="fw-600 mb-0 custom-secondary">
+              <p className="fw-600 mb-0 custom-secondary" style={{fontSize:16, textAlign:'justify'}}>
                 Our mission is to foster spiritual growth and inner peace through the teachings of the Bhagavad Gita. We strive to create a welcoming sanctuary where individuals can connect with timeless wisdom and find solace in their journey of self-discovery.
               </p>
             </div>
           </div>
 
-          <div className="row align-items-center section-padding " style={{ paddingTop: 60 }} >
-            <div className="col-md-5 d-none d-md-block">
-              <p className="fw-600 mb-0 custom-secondary">
+          <div className="row  section-padding " style={{ paddingTop: 60 }} >
+            <div className="col-md-5 d-none d-md-block" style={{fontSize:16, textAlign:'justify'}}>
+              <p className="fw-600 mb-0 custom-secondary" style={{fontSize:16}}>
                 With Lord Krishna’s mercy, Gita Mandir recently signed a
                 PSA (Purchase Sale Agreement) for buying the above land
                 of 7.3 acres. The Goal of this phase is to successfully buy the
@@ -229,7 +229,7 @@ function Donation() {
               </p>
             </div>
 
-            <div className="col-md-2 d-none d-md-block">
+            <div className="col-md-2 d-none d-md-block align-items-center">
               {" "}
               <span className="vertical-seperator" />{" "}
             </div>
@@ -275,18 +275,15 @@ function Donation() {
             <div className="col-md-12">
               <div className=" text-center">
 
-
-
                 <h5>All the above sponsors will be recognized as donors for procuring the land</h5>
                 <h4>You can donate any amount as you prefer.</h4>
-                <p><strong>“Just by starting the construction of a temple for Lord, sins
+                <p style={{fontSize:16}}><strong>“Just by starting the construction of a temple for Lord, sins
                   committed in seven births will be wiped out and one will
                   deliver his forefathers who are suffering in hellish planets”</strong>
                   {" "}and who sponsors a temple of Lord Vishnu, gains ten million
                   times the merits accrued by Yajna, Austerities, Charities,
                   Pilgrimage and study of Vedas.</p>
-                <h6>– Skanda Purana
-                </h6>
+                <h6 style={{fontSize:20}}>– Skanda Purana</h6>
               </div>
             </div>
 

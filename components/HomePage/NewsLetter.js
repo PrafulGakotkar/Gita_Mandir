@@ -23,7 +23,7 @@ function NewsLetter() {
               src="assets/img/cta/1.png"
               alt="cta"
             /> */}
-            {/* <Image src={img} alt='krishna' />  */}
+            <Image src={img} alt='krishna' /> 
             <div className="sigma_cta-content">
               <span className="fw-600  text-white">
                 Need Help, Call Our HOTLINE!
@@ -57,7 +57,7 @@ function NewsLetter() {
               src="assets/img/cta/2.png"
               alt="cta"
             /> */}
-            <Image src={img} alt='krishna' />
+            {/* <Image src={img} alt='krishna' /> */}
           </div>
         </div>
       </div>

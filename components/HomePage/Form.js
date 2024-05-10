@@ -14,7 +14,8 @@ function Form() {
     <div className="container">
       <div className="row align-items-center">
         <div className="col-lg-6 mb-lg-30">
-          <form method="post">
+          <form>
+          {/* <form method="post"> */}
             <div className="form-row">
               <div className="col-lg-6">
                 <div className="form-group">

@@ -30,7 +30,7 @@ const BannerSlider = () => {
                       (Caitanya-bhāgavata, Antya 4.126){" "}
                     </p>
                     <div className="section-button d-flex align-items-center">
-                      <a href="contact-us.html" className="sigma_btn-custom">
+                      <a href="/donation" className="sigma_btn-custom">
                         Donate Now <i className="far fa-arrow-right" />{" "}
                         {/* Join Today <i className="far fa-arrow-right" />{" "} */}
                       </a>

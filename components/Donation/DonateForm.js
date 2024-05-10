@@ -79,48 +79,21 @@ export default function DonateForm() {
                         {paymentMethod === 'Offline Payment' ? (
                             // Display form for offline payment
                             <div className="row  ">
-                                {/* <div className='col-xl-6'>
-                                        <h5>Bank Details</h5>
-                                        <h6>
-                                            Account Name: Gita Mandir Inc.
-                                        </h6>
-                                        <h6>
-                                            Bank Name: Bank of America </h6>
-                                        <h6>
-                                            Routing No: 111000025 (For ACH) <br />
-                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;026009593 (For Wires)
-                                        </h6>
-
-                                        <h6>
-                                            Account Number: 488124797921
-                                        </h6>
-                                        <h6>
-                                            Address: 2421 Bunny Run Ln, Frisco, TX 75034
-
-                                        </h6>
-
-                                    </div>
-                                    <div className='col-xl-6'>
-                                        <h5>Zelle Info:
-                                        </h5>
-                                        <h6>
-                                            gitamandirfrisco@gmail.com
-                                        </h6>
-
-                                    </div> */}
+                                
 
                                 <form method="post">
                                     <div class="form-row sigma_donation-form">
                                         <div class="col-12">
                                             <div class="form-group1 mb-5">
                                                 <h5>Donation Amount</h5>
-                                                <div class="input-group1">
-                                                    <div class="input-group-prepend">
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend1">
                                                         <button class="sigma_btn-custom shadow-none btn-sm" type="button">$</button>
                                                     </div>
                                                     <input
                                                         type="text"
-                                                        className="form-control1 ms-0"
+                                                        className="form-control ms-0"
+                                                        style={{color:'red'}}
                                                         placeholder="$100"
                                                         value={donationAmount} // Bind value to donationAmount state
                                                         onChange={(event) => handleDonationAmountChange(event.target.value)}
@@ -136,14 +109,43 @@ export default function DonateForm() {
                                             </div>
                                         </div>
 
-                                        <div class="col-12">
+                                        <div className='col-xl-6'>
+                                    <h5>Bank Details</h5>
+                                    <h6>
+                                        Account Name: Gita Mandir Inc.
+                                    </h6>
+                                    <h6>
+                                        Bank Name: Bank of America </h6>
+                                    <h6>
+                                        Routing No: 111000025 (For ACH) <br />
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;026009593 (For Wires)
+                                    </h6>
+
+                                    <h6>
+                                        Account Number: 488124797921
+                                    </h6>
+                                    <h6>
+                                        Address: 2421 Bunny Run Ln, Frisco, TX 75034
+
+                                    </h6>
+
+                                </div>
+                                <div className='col-xl-6'>
+                                    <h5>Zelle Info:
+                                    </h5>
+                                    <h6>
+                                        gitamandirfrisco@gmail.com
+                                    </h6>
+
+                                </div>
+
+                                        <div class="col-12 pt-5">
                                             <div class="form-group">
                                                 <h5>Campaigns</h5>
                                                 <select class="form-control1 text-black">
-                                                    <option value="1" style={{color:'red'}} selected>Education for Every Child - (Target: 10000.00)</option>
-                                                    <option value="2">Education for Every Child - (Target: 10000.00)</option>
-                                                    <option value="3">Education for Every Child - (Target: 15000.00)</option>
-                                                    <option value="4">Education for Every Child - (Target: 25000.00)</option>
+                                                    <option value="1" style={{ color: 'red' }} selected>Land Acquisition - (Target: $25,00,000)</option>
+                                                    <option value="2">Temple In Store Front - (Target: $5,00,000)</option>
+                                                    <option value="3">Temple Construction- (Target: TBD)</option>
                                                 </select>
                                             </div>
                                         </div>

@@ -81,7 +81,7 @@ export default function DonateForm() {
                             <div className="row  ">
                                 
 
-                                <form method="post">
+                                <form >
                                     <div class="form-row sigma_donation-form">
                                         <div class="col-12">
                                             <div class="form-group1 mb-5">

@@ -1,6 +1,6 @@
 import React from 'react'
-import img from '../../assets/img/textures/squares.png'
-// import img from '../../assets/img/textures/squares.jpg'
+// import img from '../../assets/img/textures/squares2.png'
+import img from '../../assets/img/textures/squares2.jpg'
 // import img from '../../assets/img/bg1.jpg'
 
 function Form() {

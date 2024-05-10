@@ -193,9 +193,9 @@ function Donation() {
             </div> */}
       {/* Form End */}
       {/* holi Start */}
-      <div className="section section-padding light-bg">
+      {/* <div className="section section-padding light-bg">
         <div className="container">
-          <div className="row align-items-center">
+          {/* <div className="row align-items-center">
             <div className="col-md-5">
               <div className="section-title place">
                 <p className="subtitle">WAYS WE CAN HELP</p>
@@ -211,9 +211,9 @@ function Donation() {
                 Our mission is to foster spiritual growth and inner peace through the teachings of the Bhagavad Gita. We strive to create a welcoming sanctuary where individuals can connect with timeless wisdom and find solace in their journey of self-discovery.
               </p>
             </div>
-          </div>
+          </div> */}
 
-          <div className="row  section-padding " style={{ paddingTop: 60 }} >
+          {/* <div className="row  section-padding " style={{ paddingTop: 60 }} >
             <div className="col-md-5 d-none d-md-block" style={{fontSize:16, textAlign:'justify'}}>
               <p className="fw-600 mb-0 custom-secondary" style={{fontSize:16}}>
                 With Lord Krishna’s mercy, Gita Mandir recently signed a
@@ -246,9 +246,9 @@ function Donation() {
               </div>
             </div>
 
-          </div>
+          </div> */}
 
-          <div className="row align-items-center section-padding " style={{ paddingTop: 10 }} >
+          {/* <div className="row align-items-center section-padding " style={{ paddingTop: 10 }} >
             <div className="col-md-6">
               <div className=" text-center">
                 <h4 className="">1 Acre Land – $330,000</h4>
@@ -288,7 +288,7 @@ function Donation() {
             </div>
 
 
-          </div>
+          </div> */}
 
 
           {/* <div className="row">
@@ -320,9 +320,9 @@ function Donation() {
                 </div>
               </a>
             </div>
-          </div> */}
+          </div> 
         </div>
-      </div>
+      </div> */}
       {/* holi End */}
     </>
 

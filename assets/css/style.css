@@ -1789,6 +1789,20 @@ textarea.form-control {
     appearance: auto;
     -webkit-appearance: auto;
 }
+.form-control1 {
+  height: 60px;
+  padding: 8px 15px;
+  border-radius: 10px;
+  border: 2px solid #efefef;
+  width: 100%;
+  color: red;
+  /* color: #6e6e6e; */
+  background-color: #fff;
+  letter-spacing: 0.1px;
+  font-size: 14px;
+  appearance: auto;
+  -webkit-appearance: auto;
+}
 
 .form-control.transparent{
   background-color: rgba(255,255,255,.3);

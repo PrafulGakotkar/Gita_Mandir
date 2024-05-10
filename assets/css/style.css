@@ -1842,6 +1842,10 @@ textarea.form-control {
   position: relative;
   margin-bottom: 20px;
 }
+.form-group1 {
+  position: relative;
+  margin-bottom: 20px;
+}
 .form-group i{
   position: absolute;
   top: 50%;
@@ -2176,11 +2180,14 @@ input[type=radio]:checked+label:after {
 }
 
 .input-group-prepend,
+.input-group-prepend,
 .input-group-append{
   margin: 0;
   display: flex;
 }
 
+.input-group-prepend1 .sigma_btn-custom,
+.input-group-prepend1 .sigma_btn-custom::before,
 .input-group-prepend .sigma_btn-custom,
 .input-group-prepend .sigma_btn-custom::before {
     border-top-left-radius: 0;
@@ -9927,7 +9934,7 @@ small {
 
 /* Donation Form */
 
-.sigma_donation-form .input-group{
+.sigma_donation-form .input-group .input-group1{
   max-width: 370px;
 }
 
@@ -10131,4 +10138,12 @@ small {
 
 .place{
   text-align: end;
+}
+
+.input-group1 {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
 }

@@ -112,21 +112,19 @@ export default function DonateForm() {
                                 <form method="post">
                                     <div class="form-row sigma_donation-form">
                                         <div class="col-12">
-                                            <div class="form-group mb-5">
+                                            <div class="form-group1 mb-5">
                                                 <h5>Donation Amount</h5>
-                                                <div class="input-group">
+                                                <div class="input-group1">
                                                     <div class="input-group-prepend">
                                                         <button class="sigma_btn-custom shadow-none btn-sm" type="button">$</button>
                                                     </div>
                                                     <input
                                                         type="text"
-                                                        className="form-control ms-0"
+                                                        className="form-control1 ms-0"
                                                         placeholder="$100"
                                                         value={donationAmount} // Bind value to donationAmount state
                                                         onChange={(event) => handleDonationAmountChange(event.target.value)}
                                                     />
-
-
                                                 </div>
                                                 <ul className="sigma_select-amount">
                                                     <li className={donationAmount === '$15.00' ? 'active' : ''} onClick={() => setDonationAmount('$15.00')}>$15.00</li>

@@ -299,7 +299,7 @@ function Navbar() {
       {/* partial */}
       {/* partial:partia/__mobile-nav.html */}
       <aside className={` sigma_aside sigma_aside-left ${menuActive ? 'open' : ''}`} >
-        <div style={{display:"flex"}}>
+        <div style={{ display: "flex" }}>
           <a className="navbar-brand" href="/">
             {" "}
             <Image src={logo} className="mb-30" alt="img" />
@@ -330,7 +330,7 @@ function Navbar() {
             </ul>
           </li>
           <li className="menu-item menu-item-has-children" onClick={toggleClassName}>
-          {/* <li className="menu-item" onClick={toggleClassName}> */}
+            {/* <li className="menu-item" onClick={toggleClassName}> */}
             <a href="#">Blog</a>
             <ul className="sub-menu" style={toggleStyle}>
               <li className="menu-item">
@@ -372,18 +372,18 @@ function Navbar() {
               </ul>
             </li> */}
           <li className="menu-item ">
-              <a href="/coming_soon">Service</a>
-              <ul className="sub-menu">
-                <li className="menu-item">
-                  {" "}
-                  <a href="services.html">Service Style 1</a>{" "}
-                </li>
-                <li className="menu-item">
-                  {" "}
-                  <a href="services-2.html">Service Style 2</a>{" "}
-                </li>
-              </ul>
-            </li>
+            <a href="/coming_soon">Service</a>
+            <ul className="sub-menu">
+              <li className="menu-item">
+                {" "}
+                <a href="services.html">Service Style 1</a>{" "}
+              </li>
+              <li className="menu-item">
+                {" "}
+                <a href="services-2.html">Service Style 2</a>{" "}
+              </li>
+            </ul>
+          </li>
           <li className="menu-item ">
             <a href="/donation">Donation</a>
             {/* <ul className="sub-menu">
@@ -477,7 +477,7 @@ function Navbar() {
             <div className="sigma_header-controls style-2">
               <ul className="sigma_header-controls-inner">
                 {/* Desktop Toggler */}
-                <li className="aside-toggler style-2 aside-trigger-right desktop-toggler">
+                {/* <li className="aside-toggler style-2 aside-trigger-right desktop-toggler">
                   <span />
                   <span />
                   <span />
@@ -487,7 +487,7 @@ function Navbar() {
                   <span />
                   <span />
                   <span />
-                </li>
+                </li> */}
                 {/* Mobile Toggler */}
                 {/* Mobile menu toggle button */}
                 <button
@@ -509,6 +509,7 @@ function Navbar() {
 
               </ul>
             </div>
+            
             {/* Menu */}
             <ul className="navbar-nav">
               <li className="menu-item ">

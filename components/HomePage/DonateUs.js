@@ -36,7 +36,7 @@ function DonateUs() {
                   <div className="sigma_service-progress">
                     <div className="progress-content">
                       {/* <p>Raised: $52,384</p> */}
-                      <p>Goal: $25,00,000</p>
+                      <p>Goal: $2,500,000</p>
                     </div>
                     {/* <div className="sigma_progress">
                     <div className="progress">
@@ -72,7 +72,7 @@ function DonateUs() {
                   <div className="sigma_service-progress">
                     <div className="progress-content">
                       {/* <p>Raised: $49,444</p> */}
-                      <p>Goal: $5,00,000</p>
+                      <p>Goal: $500,000</p>
                     </div>
                     {/* <div className="sigma_progress">
                     <div className="progress">

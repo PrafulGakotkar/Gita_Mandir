@@ -1,6 +1,9 @@
 'use client'
 import Link from 'next/link';
 import React, { useState } from 'react';
+import Image from 'next/image';
+
+import img from '../../assets/img/donation/flex.jpg'
 
 export default function DonateForm() {
     const [donationAmount, setDonationAmount] = useState('$100.00'); // Default value is $100.00
@@ -25,7 +28,42 @@ export default function DonateForm() {
                         <p className="subtitle">DONATE TO HELP</p>
                         <h4 className="title">Make a donation to help us</h4>
                     </div>
+                    <div className="row align-items-center section-padding " style={{ marginTop: 50 }} >
+                        {/* <div className="col-md-6">
+              <div className=" text-center">
+                <h4 className="">1 Acre Land – $330,000</h4>
+                <h4 className="">½ Acre Land – $170,000</h4>
+                <h4>¼ Acre Land – $ 90,000</h4>
+                <h4>5,000 Sq Ft – $ 50,000</h4>
+                <h4>2,500 Sq Ft – $ 25,000</h4>
 
+
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className=" text-center">
+
+
+                <h4>1000 Sq Ft – $ 10,000</h4>
+                <h4>500 Sq Ft - $ 5,000</h4>
+                <h4>250 Sq Ft - $ 2,500</h4>
+                <h4>100 Sq Ft - $ 1,000</h4>
+
+              </div>
+            </div> */}
+
+                        <div className="col-md-12">
+                            <div className=" text-center">
+
+                                <p style={{ textAlign: 'center', fontSize: 16 }}>We are so excited to announce there is a New Krishna Temple coming in Frisco, TX . Also, we are so greatly thankful to the devotees who donated so far generously. We are reaching out to give you an opportunity to donate/support towards this great cause. Now you have a wonderful opportunity to have your name on the “temple founding Donor list wall” Permanently . You can donate 1SQFT for just $300 , or Multiple SQFT in yours or your beloved one’s name to acquire heaps of blessings to your family.</p>
+                                {/* <h4>You can donate any amount as you prefer.</h4> */}
+                                <p style={{ fontSize: 16 }}><strong> “ Sponsoring a temple gains ten million times the merits accrued by Yajna, Austerities, Charities, Pilgrimage and Study of Vedas. ”
+                                </strong>
+                                </p>
+                                <h6 style={{ fontSize: 20 }}>– Skanda Purana</h6>
+                            </div>
+                        </div>
+                    </div>
                     <div className="row sigma_donation-form">
                         {/* <div class="form-group mb-5">
                             <h5>Donation Amount</h5>
@@ -79,7 +117,7 @@ export default function DonateForm() {
                         {paymentMethod === 'Offline Payment' ? (
                             // Display form for offline payment
                             <div className="row  ">
-                                
+
 
                                 <form >
                                     <div class="form-row sigma_donation-form">
@@ -93,7 +131,7 @@ export default function DonateForm() {
                                                     <input
                                                         type="text"
                                                         className="form-control ms-0"
-                                                        style={{color:'red'}}
+                                                        style={{ color: 'red' }}
                                                         placeholder="$100"
                                                         value={donationAmount} // Bind value to donationAmount state
                                                         onChange={(event) => handleDonationAmountChange(event.target.value)}
@@ -110,34 +148,37 @@ export default function DonateForm() {
                                         </div>
 
                                         <div className='col-xl-6'>
-                                    <h5>Bank Details</h5>
-                                    <h6>
-                                        Account Name: Gita Mandir Inc.
-                                    </h6>
-                                    <h6>
-                                        Bank Name: Bank of America </h6>
-                                    <h6>
-                                        Routing No: 111000025 (For ACH) <br />
-                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;026009593 (For Wires)
-                                    </h6>
+                                            <h5>Bank Details</h5>
+                                            <h6>
+                                                Account Name: Gita Mandir Inc.
+                                            </h6>
+                                            <h6>
+                                                Bank Name: Bank of America </h6>
+                                            <h6>
+                                                Account Number: 488124797921
+                                            </h6>
+                                            <h6>
+                                                Routing No: 111000025 (paper & electronic) <br />
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;026009593  (wires)
 
-                                    <h6>
-                                        Account Number: 488124797921
-                                    </h6>
-                                    <h6>
-                                        Address: 2421 Bunny Run Ln, Frisco, TX 75034
+                                            </h6>
 
-                                    </h6>
 
-                                </div>
-                                <div className='col-xl-6'>
-                                    <h5>Zelle Info:
-                                    </h5>
-                                    <h6>
-                                        gitamandirfrisco@gmail.com
-                                    </h6>
+                                            <h6>
+                                                Address: 2421 Bunny Run Ln, Frisco, TX 75034
 
-                                </div>
+                                            </h6>
+                                            <h5>Zelle Info:
+                                            </h5>
+                                            <h6>
+                                                gitamandirfrisco@gmail.com
+                                            </h6>
+
+                                        </div>
+                                        <div className='col-xl-6'>
+                                        <Image src={img} height={350} width={350} alt="about" />
+
+                                        </div>
 
                                         <div class="col-12 pt-5">
                                             <div class="form-group">
@@ -181,7 +222,7 @@ export default function DonateForm() {
                             <div className="row text-center">
                                 <div className="col-lg-6 text-center">
 
-                                    <Link className="sigma_btn-custom" href="https://www.paypal.com/ncp/payment/EBESV5GG5C6YY" >
+                                    <Link className="sigma_btn-custom" href="https://www.paypal.com/donate/?hosted_button_id=Y5VJJ8XNQWSWN" >
                                         Pay Through Paypal
                                     </Link>
 

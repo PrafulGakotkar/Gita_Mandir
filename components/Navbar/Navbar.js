@@ -684,7 +684,7 @@ function Navbar() {
               </a>
               <a className="sigma_btn-custom" href="/donation">
                 {" "}
-                Donate Now{" "}
+                PLEDGE Payments{" "}
               </a>
             </div>
             {/* Controls */}

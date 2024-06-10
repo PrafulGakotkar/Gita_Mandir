@@ -397,7 +397,7 @@ function Navbar() {
                 </li>
               </ul> */}
           </li>
-          <li className="menu-item ">
+          {/* <li className="menu-item ">
             <a href="#">Event</a>
             <ul className="sub-menu">
               <li className="menu-item">
@@ -409,7 +409,7 @@ function Navbar() {
                 <a href="/coming_soon">Event Detail</a>{" "}
               </li>
             </ul>
-          </li>
+          </li> */}
           {/* <li className="menu-item menu-item-has-children">
             <a href="#">Holis</a>
             <ul className="sub-menu">
@@ -529,7 +529,7 @@ function Navbar() {
                     </li>
                   </ul> */}
               </li>
-              <li className="menu-item menu-item-has-children">
+              {/* <li className="menu-item menu-item-has-children">
                 <a href="#">Pages</a>
                 <ul className="sub-menu">
                   <li className="menu-item">
@@ -566,11 +566,11 @@ function Navbar() {
                       {/* <li className="menu-item">
                           {" "}
                           <a href="checkout.html">Checkout</a>{" "}
-                        </li> */}
+                        </li> 
                       {/* <li className="menu-item">
                           {" "}
                           <a href="wishlist.html">Wishlist</a>{" "}
-                        </li> */}
+                        </li> 
                     </ul>
                   </li>
                   <li className="menu-item menu-item-has-children">
@@ -583,7 +583,7 @@ function Navbar() {
                       {/* <li className="menu-item">
                           {" "}
                           <a href="services-2.html">Service Style 2</a>{" "}
-                        </li> */}
+                        </li> 
                     </ul>
                   </li>
                   <li className="menu-item">
@@ -603,7 +603,7 @@ function Navbar() {
                       {/* <li className="menu-item">
                           {" "}
                           <a href="volunteer-detail.html">Volunteer Details</a>{" "}
-                        </li> */}
+                        </li> 
                     </ul>
                   </li>
                   <li className="menu-item">
@@ -611,8 +611,8 @@ function Navbar() {
                     <a href="/coming_soon">FAQ</a>{" "}
                   </li>
                 </ul>
-              </li>
-              <li className="menu-item menu-item-has-children">
+              </li> */}
+              {/* <li className="menu-item menu-item-has-children">
                 <a href="#">Event</a>
                 <ul className="sub-menu">
                   <li className="menu-item">
@@ -624,7 +624,7 @@ function Navbar() {
                     <a href="/coming_soon">Event Detail</a>{" "}
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li className="menu-item ">
                 <a href="/about">About Us</a>
                 {/* <ul className="sub-menu">

@@ -36,7 +36,7 @@ function Footer() {
                                 <ul>
                                     <li>
                                         {/* <i className="fas fa-om"></i> */}
-                                        <Image  className='footrt-icon-img' src={icon} width={20} alt='icon' />
+                                        <Image className='footrt-icon-img' src={icon} width={20} alt='icon' />
                                         <Link style={{ marginLeft: 25 }} href="/">Home</Link>
                                     </li>
                                     <li>
@@ -46,7 +46,7 @@ function Footer() {
                                     </li>
                                     <li>
                                         {/* <i className="fas fa-om"></i> */}
-                                        <Image   className='footrt-icon-img' src={icon} width={20} alt='icon' />
+                                        <Image className='footrt-icon-img' src={icon} width={20} alt='icon' />
                                         <Link style={{ marginLeft: 25 }} href="/contact">Contact Us</Link>
                                     </li>
                                     {/* <li>
@@ -60,7 +60,7 @@ function Footer() {
                                     </li>  */}
                                     <li>
                                         {/* <i className="fas fa-om"></i> */}
-                                        <Image   className='footrt-icon-img' src={icon} width={20} alt='icon' />
+                                        <Image className='footrt-icon-img' src={icon} width={20} alt='icon' />
                                         <Link style={{ marginLeft: 25 }} href="/donation">Donation</Link>
                                     </li>
                                 </ul>
@@ -70,24 +70,24 @@ function Footer() {
                                 <ul>
                                     <li>
                                         {/* <i className="fas fa-om"></i> */}
-                                        <Image   className='footrt-icon-img' src={icon} width={20} alt='icon' />
+                                        <Image className='footrt-icon-img' src={icon} width={20} alt='icon' />
                                         <Link style={{ marginLeft: 25 }} href="/coming_soon">Shop</Link>
                                     </li>
-                                   
-                                    
+
+
                                     <li>
                                         {/* <i className="fas fa-om"></i> */}
-                                        <Image   className='footrt-icon-img' src={icon} width={20} alt='icon' />
+                                        <Image className='footrt-icon-img' src={icon} width={20} alt='icon' />
                                         <Link style={{ marginLeft: 25 }} href="/coming_soon">Blog</Link>
                                     </li>
                                     <li>
                                         {/* <i className="fas fa-om"></i> */}
-                                        <Image   className='footrt-icon-img' src={icon} width={20} alt='icon' />
+                                        <Image className='footrt-icon-img' src={icon} width={20} alt='icon' />
                                         <Link style={{ marginLeft: 25 }} href="/coming_soon">Events</Link>
                                     </li>
                                     <li>
                                         {/* <i className="fas fa-om"></i> */}
-                                        <Image   className='footrt-icon-img' src={icon} width={20} alt='icon' />
+                                        <Image className='footrt-icon-img' src={icon} width={20} alt='icon' />
                                         <Link style={{ marginLeft: 25 }} href="/coming_soon">Volunteer</Link>
                                     </li>
                                 </ul>
@@ -130,8 +130,13 @@ function Footer() {
                         </div>
                         <ul className="sigma_sm square">
                             <li>
-                                <a href="#">
+                                <a href="https://www.facebook.com/search/top?q=gita%20mandir%20-%20frisco%20tx" target='_blank'>
                                     <i className="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/GitaMandirFrisco/" target='_blank'>
+                                    <i class="fab fa-instagram"></i>
                                 </a>
                             </li>
                             <li>
@@ -149,6 +154,7 @@ function Footer() {
                                     <i className="fab fa-youtube"></i>
                                 </a>
                             </li>
+
                         </ul>
                     </div>
                 </div>

@@ -534,7 +534,7 @@ function Navbar() {
                 <ul className="sub-menu">
                   <li className="menu-item">
                     {" "}
-                    <a href="/about">About Us</a>{" "}
+                    <a href="225+22.">About Us</a>{" "}
                   </li>
                   <li className="menu-item menu-item-has-children">
                     <a href="#">Blog</a>
@@ -626,7 +626,7 @@ function Navbar() {
                 </ul>
               </li> */}
               <li className="menu-item ">
-                <a href="/about">About Us</a>
+                <a href="/coming_soon">About Us</a>
                 {/* <ul className="sub-menu">
                     <li className="menu-item">
                       {" "}
@@ -639,7 +639,7 @@ function Navbar() {
                   </ul> */}
               </li>
               <li className="menu-item ">
-                <a href="/contact">Contact Us</a>
+                <a href="/coming_soon">Contact Us</a>
                 {/* <ul className="sub-menu">
                     <li className="menu-item">
                       {" "}
@@ -652,7 +652,7 @@ function Navbar() {
                   </ul> */}
               </li>
               <li className="menu-item ">
-                <a href="/donation">Donation</a>
+                <a href="/coming_soon">Donation</a>
                 {/* <ul className="sub-menu">
                     <li className="menu-item">
                       {" "}
@@ -682,7 +682,7 @@ function Navbar() {
                   <h6>+1 214-284-6138</h6>
                 </div>
               </a>
-              <a className="sigma_btn-custom" href="/donation">
+              <a className="sigma_btn-custom" href="/coming_soon">
                 {" "}
                 PLEDGE Payments{" "}
               </a>

@@ -16,7 +16,7 @@ function Help() {
         </div>
         <div className="row">
           <div className="col-lg-4 col-md-6">
-            <a href="/donation" className="sigma_service style-1 primary-bg">
+            <a href="/coming_soon" className="sigma_service style-1 primary-bg">
               <div className="sigma_service-thumb">
                 {/* <i className="text-white flaticon-temple" /> */}
                 <i className="text-white flaticon-hindu-1" />
@@ -36,7 +36,7 @@ function Help() {
           </div>
           <div className="col-lg-4 col-md-6 mt-negative-sm">
             <a
-              href="/donation"
+              href="/coming_soon"
               className="sigma_service style-1 secondary-bg"
             >
               <div className="sigma_service-thumb text-white">
@@ -55,7 +55,7 @@ function Help() {
             </a>
           </div>
           <div className="col-lg-4 col-md-6 mt-negative-sm">
-            <a href="/donation" className="sigma_service style-1 bg-white">
+            <a href="/coming_soon" className="sigma_service style-1 bg-white">
               <div className="sigma_service-thumb">
                 <i className="flaticon-temple" />
               </div>
@@ -72,7 +72,7 @@ function Help() {
           </div>
         </div>
         <div className="text-end">
-          <a href="/donation" className="btn-link text-white">
+          <a href="/coming_soon" className="btn-link text-white">
             {" "}
             Get Started Now <i className="custom-primary far fa-arrow-right" />{" "}
           </a>

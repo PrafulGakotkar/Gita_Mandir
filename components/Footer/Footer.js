@@ -42,12 +42,12 @@ function Footer() {
                                     <li>
                                         {/* <i className="fas fa-om"></i> */}
                                         <Image className='footrt-icon-img' src={icon} width={20} alt='icon' />
-                                        <Link style={{ marginLeft: 25 }} href="/about">About Us</Link>
+                                        <Link style={{ marginLeft: 25 }} href="/coming_soon">About Us</Link>
                                     </li>
                                     <li>
                                         {/* <i className="fas fa-om"></i> */}
                                         <Image className='footrt-icon-img' src={icon} width={20} alt='icon' />
-                                        <Link style={{ marginLeft: 25 }} href="/contact">Contact Us</Link>
+                                        <Link style={{ marginLeft: 25 }} href="/coming_soon">Contact Us</Link>
                                     </li>
                                     {/* <li>
                                         <i className="fas fa-om"></i>
@@ -61,7 +61,7 @@ function Footer() {
                                     <li>
                                         {/* <i className="fas fa-om"></i> */}
                                         <Image className='footrt-icon-img' src={icon} width={20} alt='icon' />
-                                        <Link style={{ marginLeft: 25 }} href="/donation">Donation</Link>
+                                        <Link style={{ marginLeft: 25 }} href="/coming_soon">Donation</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -97,7 +97,7 @@ function Footer() {
                                 <article className="sigma_recent-post">
                                     {/* <Link href="blog-details.html"><img src="assets/img/blog/sm/1.jpg" alt="post"></Link> */}
                                     <div className="sigma_recent-post-body">
-                                        <Link href="blog-details.html"> <i className="far fa-calendar"></i> May 20, 2022</Link>
+                                        <Link href="#"> <i className="far fa-calendar"></i> May 20, 2022</Link>
                                         <h6> <Link href="#">Temple companies are being so transparent with their work</Link></h6>
                                     </div>
                                 </article>
@@ -130,7 +130,7 @@ function Footer() {
                         </div>
                         <ul className="sigma_sm square">
                             <li>
-                                <a href="https://www.facebook.com/search/top?q=gita%20mandir%20-%20frisco%20tx" target='_blank'>
+                                <a href="https://www.facebook.com/share/tUojH2rgUketTwsP/?mibextid=qi2Omg" target='_blank'>
                                     <i className="fab fa-facebook-f"></i>
                                 </a>
                             </li>

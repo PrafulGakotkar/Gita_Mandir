@@ -36,11 +36,11 @@ const AboutSection = () => {
                 <li>Trusted Company</li> */}
               </ul>
               <p className="blockquote bg-transparent">  Lord Krishna’s new
-home in Frisco and utilize the opportunity
-to personally contribute towards
-Mahaprabhu’s prophecy.
-</p>
-              <a href="/about" className="sigma_btn-custom light">Learn More <i className="far fa-arrow-right"></i> </a>
+                home in Frisco and utilize the opportunity
+                to personally contribute towards
+                Mahaprabhu’s prophecy.
+              </p>
+              <a href="/coming_soon" className="sigma_btn-custom light">Learn More <i className="far fa-arrow-right"></i> </a>
             </div>
           </div>
         </div>

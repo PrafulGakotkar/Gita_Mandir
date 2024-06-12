@@ -24,8 +24,8 @@ export default function Home() {
       <DonateUs />
       <Volunteers />
       <NewsLetter />
-      <Form />
-      <Blog />
+      {/* <Form /> */}
+      {/* <Blog /> */}
       <Footer />
     </>
   );

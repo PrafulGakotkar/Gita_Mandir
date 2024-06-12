@@ -46,7 +46,7 @@ function Progress() {
             </h6>
             <p className="m-0 blockquote bg-transparent">
               {" "}
-              Design better websites and spend less time without restricting{" "}
+              The Gita Mandir Lord Krishna's temple construction project is in its initial stage, with planning underway and fundraising efforts just beginning.{" "}
             </p>
           </div>
         </div>

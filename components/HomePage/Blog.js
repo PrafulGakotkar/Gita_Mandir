@@ -22,31 +22,32 @@ function Blog() {
           <div className="col-lg-4 col-md-6">
             <article className="sigma_post">
               <div className="sigma_post-thumb">
-                <a href="blog-details.html">
+                <a href="#">
                   {/* <img src="assets/img/blog/2.jpg" alt="post" /> */}
                   <Image src={img} alt='krishna' />
                 </a>
               </div>
               <div className="sigma_post-body">
                 <div className="sigma_post-meta">
-                  <div className="me-3">
-                    <i className="fas fa-om" />
-                    <a href="blog-details.html" className="sigma_post-category">
+                    <Image className='icon-img5' src={icon} width={20} alt='icon'/> 
+                  <div className="me-3" style={{marginLeft:5}}>
+                    {/* <i className="fas fa-om" /> */}
+                    <a href="#" className="sigma_post-category">
                       Temple
                     </a>
                     ,
-                    <a href="blog-details.html" className="sigma_post-category">
+                    <a href="#" className="sigma_post-category">
                       Love
                     </a>
                   </div>
-                  <a href="blog-details.html" className="sigma_post-date">
+                  <a href="#" className="sigma_post-date">
                     {" "}
                     <i className="far fa-calendar" /> May 20, 2022
                   </a>
                 </div>
                 <h5>
                   {" "}
-                  <a href="blog-details.html">
+                  <a href="#">
                     Temple companies are being so transparent with their work
                   </a>{" "}
                 </h5>
@@ -64,7 +65,7 @@ function Blog() {
           <div className="col-lg-4 col-md-6">
             <article className="sigma_post">
               <div className="sigma_post-thumb">
-                <a href="blog-details.html">
+                <a href="#">
                   {/* <img src="assets/img/blog/1.jpg" alt="post" /> */}
                   <Image src={img1} alt='krishna' />
                 </a>
@@ -73,22 +74,22 @@ function Blog() {
                 <div className="sigma_post-meta">
                   <div className="me-3">
                     <i className="fas fa-om" />
-                    <a href="blog-details.html" className="sigma_post-category">
+                    <a href="#" className="sigma_post-category">
                       Temple
                     </a>
                     ,
-                    <a href="blog-details.html" className="sigma_post-category">
+                    <a href="#" className="sigma_post-category">
                       Love
                     </a>
                   </div>
-                  <a href="blog-details.html" className="sigma_post-date">
+                  <a href="#" className="sigma_post-date">
                     {" "}
                     <i className="far fa-calendar" /> May 20, 2022
                   </a>
                 </div>
                 <h5>
                   {" "}
-                  <a href="blog-details.html">
+                  <a href="#">
                     How to abide by Puja rules without any risks
                   </a>{" "}
                 </h5>
@@ -106,7 +107,7 @@ function Blog() {
           <div className="col-lg-4 col-md-6">
             <article className="sigma_post">
               <div className="sigma_post-thumb">
-                <a href="blog-details.html">
+                <a href="#">
                   {/* <img src="assets/img/blog/3.jpg" alt="post" /> */}
                   <Image src={img2} alt='krishna' />
                 </a>
@@ -115,22 +116,22 @@ function Blog() {
                 <div className="sigma_post-meta">
                   <div className="me-3">
                     <i className="fas fa-om" />
-                    <a href="blog-details.html" className="sigma_post-category">
+                    <a href="#" className="sigma_post-category">
                       Temple
                     </a>
                     ,
-                    <a href="blog-details.html" className="sigma_post-category">
+                    <a href="#" className="sigma_post-category">
                       Love
                     </a>
                   </div>
-                  <a href="blog-details.html" className="sigma_post-date">
+                  <a href="#" className="sigma_post-date">
                     {" "}
                     <i className="far fa-calendar" /> May 20, 2022
                   </a>
                 </div>
                 <h5>
                   {" "}
-                  <a href="blog-details.html">
+                  <a href="#">
                     Education for all rural children are necessary.
                   </a>{" "}
                 </h5>

@@ -46,7 +46,8 @@ function Progress() {
             </h6>
             <p className="m-0 blockquote bg-transparent">
               {" "}
-              The Gita Mandir Lord Krishna&apos;s temple construction project is in its initial stage, with planning underway and fundraising efforts just beginning.{" "}
+            Lord Krishna&apos;s new temple construction is underway in Frisco, bringing divine grace to the heart of the community.
+              {" "}
             </p>
           </div>
         </div>

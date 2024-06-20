@@ -18,7 +18,7 @@ function Progress() {
         </div>
         <div className="col-lg-4 p-3 p-lg-0">
           <div className="sigma_box sigma_box-absolute sigma_box-lg m-0 sigma_box-progress">
-            <i className="flaticon-hindu" />
+            {/* <i className="flaticon-hindu" /> */}
             <div className="sigma_round-button mb-4">
               <span>
                 {" "}

@@ -16,7 +16,7 @@ function Help() {
         </div>
         <div className="row">
           <div className="col-lg-4 col-md-6">
-            <a href="/coming_soon" className="sigma_service style-1 primary-bg">
+            <a href="https://www.paypal.com/donate/?hosted_button_id=Y5VJJ8XNQWSWN" className="sigma_service style-1 primary-bg">
               <div className="sigma_service-thumb">
                 {/* <i className="text-white flaticon-temple" /> */}
                 <i className="text-white flaticon-hindu-1" />
@@ -30,13 +30,13 @@ function Help() {
                 </p>
               </div>
               <span className="btn-link text-white">
-                Learn More <i className="text-white far fa-arrow-right" />{" "}
+                Donate Now <i className="text-white far fa-arrow-right" />{" "}
               </span>
             </a>
           </div>
           <div className="col-lg-4 col-md-6 mt-negative-sm">
             <a
-              href="/coming_soon"
+              href="https://www.paypal.com/donate/?hosted_button_id=Y5VJJ8XNQWSWN"
               className="sigma_service style-1 secondary-bg"
             >
               <div className="sigma_service-thumb text-white">
@@ -50,12 +50,12 @@ function Help() {
                 </p>
               </div>
               <span className="text-white btn-link">
-                Learn More <i className="text-white far fa-arrow-right" />{" "}
+                Donate Now <i className="text-white far fa-arrow-right" />{" "}
               </span>
             </a>
           </div>
           <div className="col-lg-4 col-md-6 mt-negative-sm">
-            <a href="/coming_soon" className="sigma_service style-1 bg-white">
+            <a href="https://www.paypal.com/donate/?hosted_button_id=Y5VJJ8XNQWSWN" className="sigma_service style-1 bg-white">
               <div className="sigma_service-thumb">
                 <i className="flaticon-temple" />
               </div>
@@ -66,15 +66,16 @@ function Help() {
                 </p>
               </div>
               <span className="btn-link">
-                Learn More <i className="far fa-arrow-right" />{" "}
+                Donate Now <i className="far fa-arrow-right" />{" "}
               </span>
             </a>
           </div>
         </div>
         <div className="text-end">
-          <a href="/coming_soon" className="btn-link text-white">
+          <a href="https://www.paypal.com/donate/?hosted_button_id=Y5VJJ8XNQWSWN" className="btn-link text-white">
             {" "}
-            Get Started Now <i className="custom-primary far fa-arrow-right" />{" "}
+            Donate Now <i className="custom-primary far fa-arrow-right" />{" "}
+            {/* Get Started Now <i className="custom-primary far fa-arrow-right" />{" "} */}
           </a>
         </div>
       </div>

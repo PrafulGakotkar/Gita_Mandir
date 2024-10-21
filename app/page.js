@@ -22,7 +22,7 @@ export default function Home() {
       <Help />
       <Progress />
       <DonateUs />
-      <Volunteers />
+      {/* <Volunteers /> */}
       <NewsLetter />
       {/* <Form /> */}
       {/* <Blog /> */}

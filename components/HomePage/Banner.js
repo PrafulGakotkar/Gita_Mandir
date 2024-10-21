@@ -30,7 +30,7 @@ const BannerSlider = () => {
                       (Caitanya-bhāgavata, Antya 4.126){" "}
                     </p>
                     <div className="section-button d-flex align-items-center">
-                      <a href="https://www.paypal.com/donate/?hosted_button_id=Y5VJJ8XNQWSWN" className="sigma_btn-custom">
+                      <a href="https://www.paypal.com/ncp/payment/LCHURH3DBEFRU" target="_blank" className="sigma_btn-custom">
                         Donate Now <i className="far fa-arrow-right" />{" "}
                         {/* Join Today <i className="far fa-arrow-right" />{" "} */}
                       </a>

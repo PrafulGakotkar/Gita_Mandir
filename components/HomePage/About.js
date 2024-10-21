@@ -40,7 +40,7 @@ const AboutSection = () => {
                 to personally contribute towards
                 Mahaprabhu’s prophecy.
               </p>
-              <a href="https://www.paypal.com/donate/?hosted_button_id=Y5VJJ8XNQWSWN" className="sigma_btn-custom light">Donate Now <i className="far fa-arrow-right"></i> </a>
+              <a href="https://www.paypal.com/ncp/payment/LCHURH3DBEFRU" target="_blank" className="sigma_btn-custom light">Donate Now <i className="far fa-arrow-right"></i> </a>
               {/* <a href="/coming_soon" className="sigma_btn-custom light">Learn More <i className="far fa-arrow-right"></i> </a> */}
             </div>
           </div>

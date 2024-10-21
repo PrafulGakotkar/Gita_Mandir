@@ -222,7 +222,7 @@ export default function DonateForm() {
                             <div className="row text-center">
                                 <div className="col-lg-6 text-center">
 
-                                    <Link className="sigma_btn-custom" href="https://www.paypal.com/donate/?hosted_button_id=Y5VJJ8XNQWSWN" >
+                                    <Link className="sigma_btn-custom" href="https://www.paypal.com/ncp/payment/LCHURH3DBEFRU" target="_blank" >
                                         Pay Through Paypal
                                     </Link>
 

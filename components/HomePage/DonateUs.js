@@ -50,7 +50,7 @@ function DonateUs() {
                     </div>
                   </div> */}
                   </div>
-                  <a href="https://www.paypal.com/donate/?hosted_button_id=Y5VJJ8XNQWSWN" className="sigma_btn-custom">
+                  <a href="https://www.paypal.com/ncp/payment/LCHURH3DBEFRU" target="_blank" className="sigma_btn-custom">
                     Donate
                   </a>
                 </div>
@@ -86,7 +86,7 @@ function DonateUs() {
                     </div>
                   </div> */}
                   </div>
-                  <a href="https://www.paypal.com/donate/?hosted_button_id=Y5VJJ8XNQWSWN" className="sigma_btn-custom">
+                  <a href="https://www.paypal.com/ncp/payment/LCHURH3DBEFRU" target="_blank" className="sigma_btn-custom">
                     Donate
                   </a>
                 </div>
@@ -123,7 +123,7 @@ function DonateUs() {
                     </div>
                   </div> */}
                   </div>
-                  <a href="https://www.paypal.com/donate/?hosted_button_id=Y5VJJ8XNQWSWN" className="sigma_btn-custom">
+                  <a href="https://www.paypal.com/ncp/payment/LCHURH3DBEFRU" target="_blank" className="sigma_btn-custom">
                     Donate
                   </a>
 
